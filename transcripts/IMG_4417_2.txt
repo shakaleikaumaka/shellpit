@@ -9,5 +9,5 @@ Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · co
 ---
 
 [00:00] all right so we're here we're here at turtle ops with our with our turtle ops father uh the toolmaker
-[00:06] so as you saw yovo and i were trying to cut this wood with a grinder earlier as it was smoking
+[00:06] so as you saw Yovel and I were trying to cut this wood with a grinder earlier as it was smoking
 [00:13] and now we've come here for the expert cut we almost built a fire we almost built the fire

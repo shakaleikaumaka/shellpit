@@ -8,4 +8,4 @@ Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · co
 
 ---
 
-[00:02] Maybe we should we kind of did a bad wish we clean up the one that we did
+[00:02] Maybe we should we kind of did a bad job, wish we clean up the one that we did

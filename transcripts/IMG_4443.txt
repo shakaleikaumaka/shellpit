@@ -8,5 +8,5 @@ Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · co
 
 ---
 
-[00:00] اتنفع اي مو مستقل او تي
-[00:03] كل بخامر اي مو مستقل
+[00:00] [unclear — non-English speech, likely Hebrew; whisper mis-rendered as Arabic]
+[00:03] [unclear — non-English speech, likely Hebrew; whisper mis-rendered as Arabic]

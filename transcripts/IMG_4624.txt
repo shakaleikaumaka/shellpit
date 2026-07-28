@@ -15,7 +15,7 @@ Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · co
 [00:13] And this is a custom
 [00:26] This thing's been machinified
 [00:30] The machine turned the trailer into a machine
-[00:37] If we let's say power is done you don't want to use Jenny anymore, whatever something bad happens we can kill that
+[00:37] If we let's say power is done you don't want to use genny anymore, whatever something bad happens we can kill that
 [00:43] Click over and now we're running on the wall power what?
 [00:50] what I
 [00:52] Might need you to show me that again real slow

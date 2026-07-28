@@ -15,16 +15,16 @@ Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · co
 [00:22] Okay, so all we're going to do is, oh they already have the other one.
 [00:28] We're going to wrap the threads on the black part here with this tape and then
 [00:35] you're just going to screw this on to the threads. Use these channel locks to tighten it
-[00:41] and then once that's on, we're going to take this cam lock and slide it right on like this.
+[00:41] and then once that's on, we're going to take this cam-lock and slide it right on like this.
 [00:57] That's all set. The last piece of the puzzle will be plugging in this.
 [01:16] Plug this in. You can hear the pump start. The pump immediately turns on.
 [01:21] And then what will happen is, we'll pump the water through this orange line.
 [01:28] We'll go to our transfer pump. From the transfer pump, it's going to pump all the way around to the kitchen.
 [01:34] Once it's pumped to the kitchen, we come into Jeremy's handy-dandy foot switch,
-[01:44] which I have just jumped into the gray water line. You can step on the foot switch.
-[01:50] It'll pump it into the gray water. It'll fill the gray water tank up until it hits the float switch.
+[01:44] which I have just jumped into the greywater line. You can step on the foot switch.
+[01:50] It'll pump it into the greywater. It'll fill the greywater tank up until it hits the float switch.
 [01:57] The sump pump will get activated. Then it'll pump the water from there into the shower.
 [02:03] Once that fills up, that float switch will get activated and then it'll pump all the water
-[02:09] from the shower basin into our gray water tank.
+[02:09] from the shower basin into our greywater tank.
 [02:16] I have slow comprehensions. That's why I recorded that, but really appreciate you machine!
 [02:21] What's your name again? Victor! Victory!
