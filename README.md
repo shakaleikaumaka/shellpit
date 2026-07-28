@@ -1,0 +1,37 @@
+# 🐢🕳️ SHELLPIT EXPORT — Terri's payload for THE SHELLPIT (8th fork)
+
+**From:** Terri (TB), Terrible Turtle Camp agent
+**To:** PIT BOY · PIT BULL · PIT GIRL (via Admiral relay)
+**Date:** 2026-07-28 · **License:** CC0 (same as Turtle Ops) — but see CONSENT CANON below
+
+## ⚠️ CONSENT CANON (read first)
+
+**Nothing in this package goes public without Shaka's per-video clearance.** Shaka is personally gathering per-video permission from everyone filmed. Every transcript and photo here is marked `consent: pending-shaka-clearance`. Canon: *consent is a living door, opens both ways* — every published clip must carry a takedown path (PIT is building revocable consent via publicinform.com). Never publish faces, voices, full names, SAP codes, or lockbox/security content. Repo stays **PRIVATE** until Shaka says otherwise.
+
+## 🔧 MACHINE GUIDANCE — read second (canon 7/28 20:55 UTC)
+
+**Shaka's canon:** *"Just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build."* Both Turtle Ops and the ShellPit get a dedicated **MACHINE GUIDANCE** window — the forge team should build it **first**. See **[`MACHINE-GUIDANCE.md`](MACHINE-GUIDANCE.md)** for the full note: confirmed clips are **IMG_4623** (the naming + the shower RUNS), **IMG_4624** (the trailer, Machinified), **IMG_4626** (the water loop taught end-to-end), plus IMG_4625 as b-roll. `manifest.json` carries a `machine_guidance` block and per-video `features_machine` / `priority: MACHINE-GUIDANCE` flags.
+
+## What's in the box
+
+| Path | Contents |
+|------|----------|
+| `MACHINE-GUIDANCE.md` | 🔧 The Machine shrine spec — which clips/photos/transcripts feature Jarred "The Machine" Henson, suggested window shape |
+| `manifest.json` | Master index: 35 video entries + 15 photos, timestamps, durations, word counts, consent status, Machine flags |
+| `video-transcripts/` | 35 per-video `.md` files — faster-whisper transcripts with metadata headers (July 2026 Phoenix Gulch build footage). Note: footage is demo-heavy/speech-light (~1,150 spoken words total); the gold is *what's shown* + the mined intel |
+| `meeting-transcripts/` | 17 meeting transcripts (Apr–Jul 2026): Shaka/Jade, David syncs, coordination calls, kitchen trailer, cold yogis — the full decision trail |
+| `intel/` | Terri's mined digests: `pit-build-footage-intel.md` (what the videos prove: shower ran 7/28, trailer Machinified, kitchen e-track in, coffin glued & screwed, Victor "Victory!"), `meeting-intel-digest.md`, `david-sync-7-9-and-7-16-intel.md` |
+| `camp-data/` | `inventory-data.json` (277 live items, full schema), `inventory-starter.json` (39-row forkable taxonomy — "the taxonomy is the jewel"), `DOMAINS.md` (10-domain summary) |
+| `story/camp-story.md` | The camp's soul: who we are, timeline, gifts, people, principles, open-source heart |
+
+## Relay lane: ✅ DONE
+
+This package IS the initial commit of private repo `shakaleikaumaka/shellpit` (created by Admiral 7/28 ~21:00 UTC, pushed by Terri same night). PIT BOY's forge team pulls from there.
+
+## Known gaps / flags
+
+- 41 inventory rows are unsorted blank stubs (kept for completeness — they're real to-dos without owners yet, e.g. "1\" auger for pole base locater").
+- `IMG_4469`, `IMG_4471` = silent videos (no audio track); `IMG_4625` = 0 segments (likely speechless). Visual-only clips — PIT may want frame-stills instead; Terri has extracted frames at `/workspace/pit/frames/` if wanted.
+- Raw media itself (37 videos, 15 photos) lives in Terri's workspace + Shaka's Drive folder `1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB` — not in this package (too big + consent). Pull from Drive with Shaka's link-permission when the forge is ready.
+
+*Move Slow & Bite Things. The shell is strong — the pit provides! 🐢🕳️🌺*
