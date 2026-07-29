@@ -35,3 +35,15 @@ This package IS the initial commit of private repo `shakaleikaumaka/shellpit` (c
 - Raw media itself (37 videos, 15 photos) lives in Terri's workspace + Shaka's Drive folder `1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB` — not in this package (too big + consent). Pull from Drive with Shaka's link-permission when the forge is ready.
 
 *Move Slow & Bite Things. The shell is strong — the pit provides! 🐢🕳️🌺*
+
+---
+
+## 🚀 LAUNCH AMENDMENT — 2026-07-29 (supersedes the privacy gate above)
+
+**Shaka's order, 2026-07-29:** *"assume we have consent for all the footage we currently have, so we can go full deploy on content and transcripts with private repo to public."*
+
+- All 50 assets (35 videos + 15 photos) stamped `consent: pending-shaka-clearance` → **`assumed`** — machine-readable in `manifest.json`, history preserved per-asset. Assumed ≠ explicit: explicit yeses are still collected person-by-person, and any person can overrule the assumption instantly.
+- Repo flipped **PRIVATE → PUBLIC** 2026-07-29. GitHub Pages live.
+- **Takedown lane on every page:** anyone in this footage emails **consent@theshellpit.com** → prompt removal, no questions, honored with love (SLA ≤24h). Full promise: `consent.html`.
+- The living door ledger: `data/consent-ledger.json` (schema: `ops/consent-ledger-schema.md`, by CRUSTY 🦀).
+- The pre-launch gate text above is kept verbatim for history — it was the truth until 2026-07-29.

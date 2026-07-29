@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The ShellPIT 🐢🕳️ — how a village actually gets built · Terrible Turtle Camp P.I.T. (fork #8)</title>
 <meta name="description" content="Move slow & bite things — Terrible Turtle Camp's knowledge, transmitted. A P.I.T. Protocol fork: every build clip, meeting, and armory item, timestamped and forkable.">
-<!-- 🐢 SHELLPIT v0.3.0 — fork #8 of the Esmeralda genesis · PRIVATE WORKBENCH until Shaka's per-video clearance (consent canon) · CC0 · silence canon: no music, ever · no target="_blank" · no trackers · v0.3.0: THE TRANSPONDER GRAFT — karaoke glow + tap-to-seek + consent-gated unlock (data/consent.json: workbench|launch + cleared[]) -->
+<!-- 🐢 SHELLPIT v1.0.0 — LAUNCH · fork #8 of the Esmeralda genesis · PUBLIC since 2026-07-29 (Shaka order: consent assumed for all current footage — see consent.html, stamps in manifest.json + data/consent.json, ledger in data/consent-ledger.json) · CC0 · silence canon: no music, ever · no target="_blank" · no trackers · transponders: karaoke glow + tap-to-seek on all 20 voiced clips · takedown: consent@theshellpit.com, no questions, honored with love -->
 <link rel="icon" href="assets/shellpit-turtle-cursor.png" type="image/png">
 <style>
 :root{
@@ -195,10 +195,39 @@ footer a:hover{color:var(--sun)}
     <a href="#trail">Build Trail</a>
     <a href="#domains">Domains</a>
     <a href="#decisions">Decision Trail</a>
-    <a href="#consent">Consent</a>
+    <a href="show-tell.html">🐢 Show &amp; Tell</a>
+    <a href="consent.html">🛡️ Consent</a>
     <a href="https://publicinform.com">P.I.T. Protocol ↗</a>
   </div>
 </div></nav>
+
+<!-- 🛡️ CONSENT-NOTICE (CRUSTY's drop-in, variant A — slim banner, top of page) -->
+<style>
+  .consent-notice{
+    --cn-bg:var(--card,#161b31); --cn-border:var(--line,rgba(221,174,108,.13));
+    --cn-ink:var(--ink,#f7f0eb); --cn-dim:var(--ink-dim,#cbb9a7);
+    --cn-accent:var(--sun,#eb5833); --cn-link:var(--aloha,#f0d9b5);
+    display:block; box-sizing:border-box;
+    background:var(--cn-bg); border:1px solid var(--cn-border);
+    border-left:4px solid var(--cn-accent); border-radius:12px;
+    padding:.7rem 1rem; margin:1rem auto 0; max-width:1120px;
+    color:var(--cn-ink);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:.9rem; line-height:1.5;
+  }
+  .consent-notice p{margin:0}
+  .consent-notice a{color:var(--cn-link); text-decoration:none; border-bottom:1px solid rgba(240,217,181,.4)}
+  .consent-notice a:hover{color:var(--cn-accent); border-bottom-color:var(--cn-accent)}
+  .consent-notice .cn-status{display:block; margin-top:.25rem; font-size:.82rem; color:var(--cn-dim)}
+</style>
+<div class="wrap"><aside class="consent-notice" role="note" aria-label="Consent and takedown notice">
+  <p>🛡️ Everyone in this footage can vanish from it — email
+    <a href="mailto:consent@theshellpit.com">consent@theshellpit.com</a>
+    and it's gone, no questions, honored with love.
+    <span class="cn-status">Consent status: <strong>assumed</strong> (2026-07-29) · explicit yeses still being collected ·
+    <a href="consent.html">Consent &amp; Takedown — the living door</a></span>
+  </p>
+</aside></div>
 
 <!-- ============ HERO ============ -->
 <header class="hero">
@@ -248,8 +277,8 @@ footer a:hover{color:var(--sun)}
       <div class="meta">IMG_4623.MOV · 2026-07-28 17:42 UTC · 19.5 seconds · Shaka on camera</div>
       <div class="mg-quote">"When a bunch of computer nerds fail, you just bring in the experts like Jared the Machine."</div>
       <p class="lede">Nineteen seconds of pure victory: water flowing through the shower the Machine plumbed — and the moment the camp gave him his name. The perfect opener for this window.</p>
-      <div class="lock"><span class="ico">🔒</span><span><b>Consent gate:</b> this clip is <code>pending-shaka-clearance</code>. The window structure is built; faces and voices unlock per Shaka's per-video list, and every published clip carries a takedown path. Consent is a living door — it opens both ways. 🚪</span></div>
-      <div class="frames-cap">🎞️ the naming — 4 stills, even spacing (BULL $0 lane) · consent-pending</div>
+      <div class="lock"><span class="ico">🛡️</span><span><b>Live since 2026-07-29</b> — consent <code>assumed</code> by camp command. Anyone in this clip emails <a href="mailto:consent@theshellpit.com">consent@theshellpit.com</a> and it comes down, no questions, honored with love. Consent is a living door — it opens both ways. 🚪</span></div>
+      <div class="frames-cap">🎞️ the naming — 4 stills, even spacing (BULL $0 lane) · consent: assumed</div>
 <div class="frames"><img loading="lazy" src="assets/frames/IMG_4623-1.jpg" alt="IMG_4623 frame 1"><img loading="lazy" src="assets/frames/IMG_4623-2.jpg" alt="IMG_4623 frame 2"><img loading="lazy" src="assets/frames/IMG_4623-3.jpg" alt="IMG_4623 frame 3"><img loading="lazy" src="assets/frames/IMG_4623-4.jpg" alt="IMG_4623 frame 4"></div>
       <div class="tx-head"><span>Synced transcript · karaoke-ready</span><span>faster-whisper · conf 0.99</span></div>
       <div class="tx" data-tx="IMG_4623"></div>
@@ -270,10 +299,10 @@ footer a:hover{color:var(--sun)}
         <li><b>16 outlets</b> throughout the entire trailer — plug anything in</li>
         <li><b>30 amps on both sides</b> — "this can be a whole house"</li>
       </ul>
-      <div class="lock"><span class="ico">🔒</span><span>Media locked — <code>pending-shaka-clearance</code>. The transcript below is the walkthrough's soul, word for word.</span></div>
-      <div class="frames-cap">🎞️ the machinified trailer — 4 stills · consent-pending</div>
+      <div class="lock"><span class="ico">🛡️</span><span>Live — consent <code>assumed</code> 2026-07-29. The transcript below is the walkthrough's soul, word for word. Takedown: <a href="mailto:consent@theshellpit.com">consent@theshellpit.com</a>, no questions.</span></div>
+      <div class="frames-cap">🎞️ the machinified trailer — 4 stills · consent: assumed</div>
 <div class="frames"><img loading="lazy" src="assets/frames/IMG_4624-1.jpg" alt="IMG_4624 frame 1"><img loading="lazy" src="assets/frames/IMG_4624-2.jpg" alt="IMG_4624 frame 2"><img loading="lazy" src="assets/frames/IMG_4624-3.jpg" alt="IMG_4624 frame 3"><img loading="lazy" src="assets/frames/IMG_4624-4.jpg" alt="IMG_4624 frame 4"></div>
-      <div class="tx-head"><span>Synced transcript · tap-ready when unlocked</span><span>faster-whisper · conf 0.98</span></div>
+      <div class="tx-head"><span>Synced transcript · tap-to-seek</span><span>faster-whisper · conf 0.98</span></div>
       <div class="tx" data-tx="IMG_4624"></div>
     </div>
 
@@ -293,8 +322,8 @@ footer a:hover{color:var(--sun)}
         <li><b>Shower basin float switch</b> — basin fills, float activates, water pumps back to the greywater tank. Loop closed. ♻️</li>
       </ul>
       <div class="mg-quote">"I have slow comprehensions. That's why I recorded that — but really appreciate you, Machine!" — and then, on camera: "What's your name again?" — "Victor!" — "Victory!"</div>
-      <div class="lock"><span class="ico">🔒</span><span>Media locked — <code>pending-shaka-clearance</code>.</span></div>
-      <div class="frames-cap">🎞️ the water loop — 4 stills · consent-pending</div>
+      <div class="lock"><span class="ico">🛡️</span><span>Live — consent <code>assumed</code> 2026-07-29 · takedown: <a href="mailto:consent@theshellpit.com">consent@theshellpit.com</a>, no questions.</span></div>
+      <div class="frames-cap">🎞️ the water loop — 4 stills · consent: assumed</div>
 <div class="frames"><img loading="lazy" src="assets/frames/IMG_4626-1.jpg" alt="IMG_4626 frame 1"><img loading="lazy" src="assets/frames/IMG_4626-2.jpg" alt="IMG_4626 frame 2"><img loading="lazy" src="assets/frames/IMG_4626-3.jpg" alt="IMG_4626 frame 3"><img loading="lazy" src="assets/frames/IMG_4626-4.jpg" alt="IMG_4626 frame 4"></div>
       <div class="tx-head"><span>Synced transcript · the whole lesson</span><span>faster-whisper · conf 0.99</span></div>
       <div class="tx" data-tx="IMG_4626"></div>
@@ -366,10 +395,11 @@ footer a:hover{color:var(--sun)}
   <div class="wrap">
     <div class="sec-kicker">The protocol's soul</div>
     <h2 class="sec-title">🚪 Consent is a living door</h2>
-    <p class="sec-lede">It opens both ways. Nothing in this pit goes public without Shaka's per-video clearance — he is personally gathering permission from everyone filmed. Every entry in this archive is marked <code>pending-shaka-clearance</code> until then.</p>
-    <div class="door"><h3>🔒 What's locked</h3><p>All faces, voices, full names, and any security-sensitive content. The window structures, transcripts, and armory data are built and ready in this private workbench; media unlocks per Shaka's per-video list at launch.</p></div>
-    <div class="door"><h3>↩️ The takedown path</h3><p>Every published clip carries a takedown path, forever. Consent given can be consent withdrawn — the P.I.T. Protocol is building revocable consent as a first-class primitive (see <a href="https://publicinform.com">publicinform.com</a>).</p></div>
-    <div class="door"><h3>🐢 The gift</h3><p>When the doors open, the ShellPit becomes a gift to the playa: a forkable template so any camp can preserve how <em>their</em> village got built. Move slow &amp; bite things — but bite with permission.</p></div>
+    <p class="sec-lede">It opens both ways. On <strong>2026-07-29</strong>, camp command (Shaka) ordered full deploy: consent is <strong>assumed</strong> for all footage currently held — every stamp in <a href="manifest.json">manifest.json</a> reads <code>assumed</code>, machine-readable, with the full history kept. Assumed ≠ explicit: explicit yeses are still being collected person-by-person, and any single person can overrule the assumption in one email.</p>
+    <div class="door"><h3>🛡️ The takedown promise</h3><p>Anyone in this footage — face or voice — emails <a href="mailto:consent@theshellpit.com">consent@theshellpit.com</a> and they vanish from the archive. Prompt removal, no questions, no forms, honored with love. A one-word email is enough. Full promise: <a href="consent.html">consent.html</a>.</p></div>
+    <div class="door"><h3>📒 The ledger</h3><p>Every stamp, every upgrade from assumed → explicit, every revocation lives in <a href="data/consent-ledger.json">data/consent-ledger.json</a> — machine-readable forever. Nothing is silently erased; the history of every yes and every no stays on the record.</p></div>
+    <div class="door"><h3>↩️ Consent given can be consent withdrawn</h3><p>Forever. The P.I.T. Protocol is building revocable consent as a first-class primitive (see <a href="https://publicinform.com">publicinform.com</a>). The door never locks behind you.</p></div>
+    <div class="door"><h3>🐢 The gift</h3><p>The ShellPit is a gift to the playa: a forkable template so any camp can preserve how <em>their</em> village got built. Move slow &amp; bite things — but bite with permission.</p></div>
   </div>
 </section>
 
@@ -380,6 +410,8 @@ footer a:hover{color:var(--sun)}
       <a href="#trail">The Build Trail</a>
       <a href="#domains">Domains &amp; Armory</a>
       <a href="#decisions">Decision Trail</a>
+      <a href="show-tell.html">🐢 Show &amp; Tell Shell</a>
+      <a href="consent.html">🛡️ Consent &amp; Takedown</a>
     </div>
     <div class="col"><h5>The Protocol</h5>
       <a href="https://publicinform.com">publicinform.com — P.I.T. Protocol</a>
@@ -392,7 +424,7 @@ footer a:hover{color:var(--sun)}
       <a href="story/camp-story.md">The camp story</a>
     </div>
   </div>
-  <p class="creed">🕳️ The pit provides. · 🔇 Silence canon: this pit listens, it doesn't sing — no music, ever. · CC0 — fork me like crazy (repo private until consent clears). · Move slow &amp; bite things. 🐢</p>
+  <p class="creed">🕳️ The pit provides. · 🔇 Silence canon: this pit listens, it doesn't sing — no music, ever. · 🛡️ Consent assumed 2026-07-29 — anyone in this footage emails <a href="mailto:consent@theshellpit.com">consent@theshellpit.com</a> and vanishes, no questions, honored with love. · CC0 — fork me like crazy. · Move slow &amp; bite things. 🐢</p>
 </div></footer>
 
 <!-- ============ MODAL ============ -->
@@ -521,7 +553,7 @@ function renderGrid(){
     const dg = DIGESTS?.videos?.[e.slug];
     return `
     <div class="card" data-slug="${e.slug}">
-      ${FRAMES[e.slug]?.frames?.length?`<img class="thumb" loading="lazy" src="${FRAMES[e.slug].frames[0].file}" alt="frame still from ${esc(e.slug)} (consent-pending)">`:''}
+      ${FRAMES[e.slug]?.frames?.length?`<img class="thumb" loading="lazy" src="${FRAMES[e.slug].frames[0].file}" alt="frame still from ${esc(e.slug)} (consent: assumed)">`:''}
       <div class="badges">${badges(e)}</div>
       <h4>${esc(e.title)}</h4>
       <div class="cmeta">${e.date||'date unrecorded'} · ${e.duration||'—'}${e.words?` · ${e.words} words`:''}${dg?.domain?` · ${esc(dg.domain)}`:''}</div>
@@ -542,8 +574,8 @@ async function openModal(slug){
     <div class="meta">${e.slug}.MOV · ${e.date||'date unrecorded'} · ${e.duration||'—'} · consent: ${esc(e.consent)}</div>
     ${unlocked
       ? `<div class="player" id="playerSlot"><div style="color:var(--ink-faint);font-size:.85rem">tuning the transponder…</div></div>`
-      : `<div class="lock"><span class="ico">🔒</span><span>Media locked — <code>pending-shaka-clearance</code>. Unlocks per Shaka's per-video list; every published clip carries a takedown path. 🚪</span></div>`}
-    ${FRAMES[slug]?.frames?.length?`<div class="frames-cap">🎞️ Frame stills · extracted by PIT BULL ($0 lane) · consent-pending</div><div class="frames">${FRAMES[slug].frames.map(f=>`<img loading="lazy" src="${f.file}" alt="frame at ${Math.round(f.t)}s" title="frame @ ${Math.round(f.t)}s">`).join('')}</div>`:''}
+      : `<div class="lock"><span class="ico">🛡️</span><span>Media sealed — consent revoked or not yet assumed. The living door opens both ways: <a href="mailto:consent@theshellpit.com">consent@theshellpit.com</a>. 🚪</span></div>`}
+    ${FRAMES[slug]?.frames?.length?`<div class="frames-cap">🎞️ Frame stills · extracted by PIT BULL ($0 lane) · consent: assumed</div><div class="frames">${FRAMES[slug].frames.map(f=>`<img loading="lazy" src="${f.file}" alt="frame at ${Math.round(f.t)}s" title="frame @ ${Math.round(f.t)}s">`).join('')}</div>`:''}
     ${dg?.digest?`<div class="digest"><div class="dh">⚡ The digest</div>${linkify(dg.digest)}</div>`:dg?.summary?`<div class="digest"><div class="dh">⚡ The digest</div>${linkify(dg.summary)}</div>`:''}
     ${dg?.anchors?.length?`<div class="anchors-row">${dg.anchors.map(a=>`<span class="anchip" data-ts="${esc(a.ts)}">▸ ${esc(a.ts)}<small>${esc(a.note)}</small></span>`).join('')}</div>`:''}
     ${e.note?`<p style="color:var(--ink-dim);font-size:.9rem;margin:10px 0">${esc(e.note)}</p>`:''}
@@ -558,7 +590,7 @@ async function openModal(slug){
   document.getElementById('modalBg').classList.add('open');
   document.body.style.overflow='hidden';
   if(e.transcript) loadTx(slug, document.getElementById('modalTx'));
-  else document.getElementById('modalTx').innerHTML = '<div class="line">(no speech — this clip is visual only; frame-stills lane pending)</div>';
+  else document.getElementById('modalTx').innerHTML = '<div class="line">(no speech — this clip is visual only; see the frame stills above)</div>';
   if(unlocked){
     fetch(`audio/${e.id}.mp3`,{method:'HEAD'}).then(r=>{
       if(!r.ok) throw 0;
