@@ -46,6 +46,6 @@ This package IS the initial commit of private repo `shakaleikaumaka/shellpit` (c
 
 - All 50 assets (35 videos + 15 photos) stamped `consent: pending-shaka-clearance` → **`assumed`** — machine-readable in `manifest.json`, history preserved per-asset. Assumed ≠ explicit: explicit yeses are still collected person-by-person, and any person can overrule the assumption instantly.
 - Repo flipped **PRIVATE → PUBLIC** 2026-07-29. GitHub Pages live.
-- **Takedown lane on every page:** anyone in this footage emails **consent@publicinform.com** → prompt removal, no questions, honored with love (SLA ≤24h). Full promise: `consent.html`.
+- **Takedown lane on every page:** anyone in this footage emails **consent@publicinform.com** → prompt removal, no questions, honored with love (SLA ≤24h). Full promise: `consent.html`. 🌐 **UNIVERSAL WINDOW CANON (Shaka, 2026-07-29 16:16 UTC):** consent@publicinform.com is THE consent window for **every P.I.T.** — takedowns and permission grants through one door; the inbox is checked every morning.
 - The living door ledger: `data/consent-ledger.json` (schema: `ops/consent-ledger-schema.md`, by CRUSTY 🦀).
 - The pre-launch gate text is preserved in git history — it was the truth until 2026-07-29.
