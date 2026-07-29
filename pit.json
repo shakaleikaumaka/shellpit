@@ -18,6 +18,7 @@
  "consent": {
   "policy": "consent-first",
   "status": "assumed 2026-07-29 (Shaka full-deploy order) · living door: consent@publicinform.com, one word removes · ledger data/consent-ledger.json",
+  "contact": "consent@publicinform.com",
   "policy_url": "https://publicinform.com/whitepaper/#consent"
  },
  "source": [
@@ -518,6 +519,6 @@
  },
  "hub": "https://publicinform.com",
  "registry": "https://publicinform.com/pits.json",
- "generated": "2026-07-29T14:13:13Z",
+ "generated": "2026-07-29T16:27:27Z",
  "generator": "pit_export.py v0.1 · PIT BOY 🕳️😤"
 }
