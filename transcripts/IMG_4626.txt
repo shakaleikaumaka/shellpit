@@ -4,7 +4,7 @@ Date: 2026-07-28
 Source video: IMG_4626.MOV
 Drive: https://drive.google.com/file/d/1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm/view
 Duration: 02:30
-Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: pending-shaka-clearance
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
 
 ---
 

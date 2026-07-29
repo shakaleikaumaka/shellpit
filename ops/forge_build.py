@@ -7,7 +7,7 @@ Terri's export -> canonical pit data:
   camp-data/inventory-data.json -> data/armory.json (10 domains, 277 items)
   meeting-transcripts/*.md -> data/meetings.json
   transcripts -> data/search-index.json
-CONSENT CANON: every entry carries consent:"pending-shaka-clearance" until Shaka's per-video list.
+CONSENT CANON: LAUNCH 2026-07-29 — every entry carries consent:"assumed-2026-07-29" (Shaka canon: consent assumed for all launch footage) · takedown: consent@theshellpit.com 🦀
 CC0 · dependency-free
 """
 import json, re, os, sys, datetime
@@ -97,7 +97,7 @@ for v in manifest['videos']:
            f"Source video: {v['video']}",
            f"Drive: https://drive.google.com/file/d/{d.get('drive_id','')}/view" if d.get('drive_id') else "Drive: (id pending)",
            f"Duration: {fmt_dur(v.get('duration_s'))}",
-           f"Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: pending-shaka-clearance",
+           f"Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29",
            "\n---\n"]
     for a, b, t in segs:
         m, s = divmod(int(a), 60); h, m = divmod(m, 60)
@@ -132,7 +132,7 @@ for v in manifest['videos']:
         'words': v.get('word_count'),
         'quality': 'ok',
         'transponder': bool(tx_index.get(sl)),
-        'consent': v.get('consent', 'pending-shaka-clearance'),
+        'consent': v.get('consent', 'assumed-2026-07-29'),
         'speakers': [],
     }
     if sl in MACHINE_CLIPS: e['machine'] = True
@@ -157,7 +157,7 @@ for ph in manifest.get('photos', []):
     d = drive_by_name.get(norm(ph['file']), {})
     photos.append({'id': d.get('drive_id',''), 'file': ph['file'],
                    'date': (ph.get('recorded') or '').replace(':', '-', 2)[:10],
-                   'size': d.get('bytes'), 'consent': ph.get('consent','pending-shaka-clearance')})
+                   'size': d.get('bytes'), 'consent': ph.get('consent','assumed-2026-07-29')})
 photos.sort(key=lambda x: x['date'] or '')
 json.dump(photos, open(p('data','photos.json'),'w'), indent=1)
 print(f"photos: {len(photos)}")
@@ -192,7 +192,7 @@ for fn in sorted(os.listdir(mdir)):
                      'date_label': date_m.group(1).strip() if date_m else None,
                      'speakers': speakers, 'words': len(raw.split()),
                      'machine': any('Henson' in s for s in speakers),
-                     'consent': 'pending-shaka-clearance'})
+                     'consent': 'assumed-2026-07-29'})
 json.dump(meetings, open(p('data','meetings.json'),'w'), indent=1)
 print(f"meetings: {len(meetings)} · machine speaks in {sum(1 for m in meetings if m['machine'])}")
 

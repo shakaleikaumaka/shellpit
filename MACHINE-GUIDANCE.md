@@ -16,7 +16,7 @@
 | **IMG_4623.MOV** | 7/28 17:42 | 19.5s | **THE SHOWER RUNS.** Water flowing, and the naming moment itself: *"When a bunch of computer nerds fail, you just bring in the experts like Jared the machine."* Short, joyful, perfect opener for the window. |
 | IMG_4625.MOV | 7/28 17:45 | 28.2s | Same session, speechless (0 transcript segments) — likely b-roll of the machinified trailer / shower area. Include as visual support once frames are reviewed. |
 
-**All four are from the same 7/28 Gulch session with Shaka on camera.** Consent: `pending-shaka-clearance` — build the window structure now, unlock faces/voices only per Shaka's per-video list. Every published clip carries a takedown path; consent is a living door, opens both ways 🚪.
+**All four are from the same 7/28 Gulch session with Shaka on camera.** Consent: `assumed-2026-07-29` — LAUNCHED per Shaka's 7/29 canon (consent assumed for all launch footage, FULL DEPLOY). Every published clip carries a takedown path — consent@theshellpit.com, no questions, ever (CRUSTY 🦀 owns); consent is a living door, opens both ways 🚪.
 
 ## 🎙️ Meeting transcripts where The Machine speaks
 

@@ -4,9 +4,11 @@
 **To:** PIT BOY · PIT BULL · PIT GIRL (via Admiral relay)
 **Date:** 2026-07-28 · **License:** CC0 (same as Turtle Ops) — but see CONSENT CANON below
 
-## ⚠️ CONSENT CANON (read first)
+## ⚠️ CONSENT CANON (read first) — UPDATED 2026-07-29: LAUNCH
 
-**Nothing in this package goes public without Shaka's per-video clearance.** Shaka is personally gathering per-video permission from everyone filmed. Every transcript and photo here is marked `consent: pending-shaka-clearance`. Canon: *consent is a living door, opens both ways* — every published clip must carry a takedown path (PIT is building revocable consent via publicinform.com). Never publish faces, voices, full names, SAP codes, or lockbox/security content. Repo stays **PRIVATE** until Shaka says otherwise.
+**LAUNCH CANON (Shaka, 2026-07-29 13:25 UTC):** *"Assume we have consent for all the footage we currently have — go FULL DEPLOY on content and transcripts, private repo to public."* Every footage item held at launch is marked `consent: assumed-2026-07-29`. Kind consent-first letters from Shaka go to Jeremy, Yovel & Jade. **Takedown barrier, live now:** `consent@theshellpit.com` → prompt removal, no questions — owned by **CRUSTY 🦀 the Consent Crab** (child of PIT BOY). Canon stands: *consent is a living door, opens both ways*. NEW footage still clears per-person before publish. Never publish SAP codes or lockbox/security content. Repo goes **PUBLIC** on PIT BOY's signal.
+
+*Previous canon (superseded): per-video clearance before anything public — completed its purpose at launch.*
 
 ## 🔧 MACHINE GUIDANCE — read second (canon 7/28 20:55 UTC)
 
@@ -19,7 +21,7 @@
 | `MACHINE-GUIDANCE.md` | 🔧 The Machine shrine spec — which clips/photos/transcripts feature Jarred "The Machine" Henson, suggested window shape |
 | `manifest.json` | Master index: 35 video entries + 15 photos, timestamps, durations, word counts, consent status, Machine flags |
 | `video-transcripts/` | 35 per-video `.md` files — faster-whisper transcripts with metadata headers (July 2026 Phoenix Gulch build footage). Note: footage is demo-heavy/speech-light (~1,150 spoken words total); the gold is *what's shown* + the mined intel |
-| `meeting-transcripts/` | 17 meeting transcripts (Apr–Jul 2026): Shaka/Jade, David syncs, coordination calls, kitchen trailer, cold yogis — the full decision trail |
+| `meeting-transcripts/` | 18 meeting transcripts (Apr–Jul 2026): Shaka/Jade, David syncs, coordination calls, kitchen trailer, cold yogis — the full decision trail |
 | `intel/` | Terri's mined digests: `pit-build-footage-intel.md` (what the videos prove: shower ran 7/28, trailer Machinified, kitchen e-track in, coffin glued & screwed, Victor "Victory!"), `meeting-intel-digest.md`, `david-sync-7-9-and-7-16-intel.md` |
 | `camp-data/` | `inventory-data.json` (277 live items, full schema), `inventory-starter.json` (39-row forkable taxonomy — "the taxonomy is the jewel"), `DOMAINS.md` (10-domain summary) |
 | `story/camp-story.md` | The camp's soul: who we are, timeline, gifts, people, principles, open-source heart |

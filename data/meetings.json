@@ -11,7 +11,7 @@
   ],
   "words": 4285,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-05-12-tarobot-intro.md",
@@ -26,7 +26,7 @@
   ],
   "words": 4018,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-05-14-kitchen-trailer.md",
@@ -43,7 +43,7 @@
   ],
   "words": 11171,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-05-15-laurence.md",
@@ -58,7 +58,7 @@
   ],
   "words": 3206,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-05-21-david-food.md",
@@ -74,7 +74,7 @@
   ],
   "words": 6744,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-03-tarobot-daniel.md",
@@ -87,7 +87,7 @@
   ],
   "words": 12824,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-07-david-planning.md",
@@ -102,7 +102,7 @@
   ],
   "words": 13326,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-11-cold-yogis-a.md",
@@ -119,7 +119,7 @@
   ],
   "words": 5556,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-11-cold-yogis-b.md",
@@ -136,7 +136,7 @@
   ],
   "words": 5556,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-19-coordination-1a.md",
@@ -152,7 +152,7 @@
   ],
   "words": 8253,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-19-coordination-1b.md",
@@ -168,7 +168,7 @@
   ],
   "words": 8253,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-26-coordination-2.md",
@@ -178,12 +178,12 @@
   "date_label": "26th Jun, 2026 - 2:56 PM",
   "speakers": [
    "Zoom user",
-   "Shaka Lei\u2019s iPhone",
+   "Shaka Lei’s iPhone",
    "Jade Clyne"
   ],
   "words": 6924,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-06-26-david-shade-kitchen.md",
@@ -199,7 +199,7 @@
   ],
   "words": 13571,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-07-02-david-sync.md",
@@ -215,7 +215,7 @@
   ],
   "words": 17910,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-07-09-david-sync.md",
@@ -228,22 +228,22 @@
    "Naked Heart",
    "Jade Clyne",
    "Let's Do Podcast",
-   "Shaka Lei\u2019s iPhone"
+   "Shaka Lei’s iPhone"
   ],
   "words": 15515,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-07-16-david-sync-JADE-NOTES.md",
   "slug": "2026-07-16-david-sync-JADE-NOTES",
-  "title": "\ufeffDavid Sync \u2014 07/16/2026 Summary",
+  "title": "﻿David Sync — 07/16/2026 Summary",
   "date": "2026-07-16",
   "date_label": null,
   "speakers": [],
   "words": 1058,
   "machine": false,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
  },
  {
   "file": "meeting-transcripts/2026-07-16-david-sync.md",
@@ -258,6 +258,20 @@
   ],
   "words": 15691,
   "machine": true,
-  "consent": "pending-shaka-clearance"
+  "consent": "assumed-2026-07-29"
+ },
+ {
+  "file": "meeting-transcripts/2026-07-23-david-sync.md",
+  "slug": "2026-07-23-david-sync",
+  "title": "david sync x terrible turtle",
+  "date": "2026-07-23",
+  "date_label": "23rd Jul, 2026 - 3:03 PM",
+  "speakers": [
+   "Jarrett Henson",
+   "Naked Heart",
+   "Zoom user"
+  ],
+  "words": 10889,
+  "machine": true
  }
 ]
