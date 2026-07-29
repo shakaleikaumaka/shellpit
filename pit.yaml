@@ -16,7 +16,7 @@ pit:
 license: "CC0-1.0 · no rights reserved · fork it"
 consent:
   policy: "consent-first"
-  status: "assumed 2026-07-29 (Shaka full-deploy order) · living door: consent@theshellpit.com, one word removes · ledger data/consent-ledger.json"
+  status: "assumed 2026-07-29 (Shaka full-deploy order) · living door: consent@publicinform.com, one word removes · ledger data/consent-ledger.json"
   policy_url: "https://publicinform.com/whitepaper/#consent"
 source:
   - type: "google-drive-folder"
