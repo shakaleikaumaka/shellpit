@@ -7,6 +7,9 @@
 
 ---
 
+
+> **🚀 UPDATE 2026-07-29:** the consent line below is historical. Consent is now **assumed** for all current footage (Shaka's full-deploy order) — the window is LIVE with faces, voices, and transponders. Takedown: consent@theshellpit.com, no questions, honored with love.
+
 ## 🎬 Confirmed clips featuring The Machine (build this window first)
 
 | Clip | When (UTC) | Len | What the window shows |
