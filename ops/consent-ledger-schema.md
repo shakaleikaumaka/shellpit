@@ -14,7 +14,7 @@ Machine-readable consent state for every asset on the ShellPit. One file per pit
     "takedown_sla_hours": 24,
     "stewards": "the pit fam — via the Admiral & Terri"
   },
-  "contact": "consent@theshellpit.com",
+  "contact": "consent@publicinform.com",
   "updated": "2026-07-29T00:00:00Z",
   "counts": { "assumed": 50, "explicit": 0, "revoked": 0, "total": 50 },
   "assets": [ ... ],
@@ -61,7 +61,7 @@ Append-only log of every consent action — the paper trail for the promise:
   "kind": "takedown | explicit_yes | assumption",
   "received_at": "2026-08-02T14:10:00Z",
   "resolved_at": "2026-08-02T15:02:00Z",
-  "via": "email:consent@theshellpit.com",
+  "via": "email:consent@publicinform.com",
   "requester_note": "one-word email: 'remove'",
   "asset_ids": ["1gRlmaTqhz1r3z26iDA-28FkPejous9t0"],
   "actions": ["media-pulled", "transcript-pulled", "search-index-purged", "frames-audio-purged", "ledger-stamped", "confirmation-sent"],

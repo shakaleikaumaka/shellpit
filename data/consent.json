@@ -77,12 +77,12 @@
   "explicit": [],
   "revoked": [],
   "policy": {
-    "contact": "consent@theshellpit.com",
+    "contact": "consent@publicinform.com",
     "promise": "prompt removal, no questions, honored with love",
     "page": "consent.html",
     "assumed_at": "2026-07-29T13:35:00Z",
     "order": "shaka-2026-07-29-full-deploy"
   },
   "note": "launch=public. cleared[] = what the UI unlocks. Every id here is under ASSUMED consent (Shaka order 2026-07-29) — see assumed[]. When a person gives an explicit yes their id moves assumed[]->explicit[]. A takedown email moves the id to revoked[] and out of cleared[] instantly. The living door opens both ways.",
-  "canon": "Consent is a living door. assumed != explicit. Anyone in any frame or voice emails consent@theshellpit.com and they vanish — no questions, honored with love."
+  "canon": "Consent is a living door. assumed != explicit. Anyone in any frame or voice emails consent@publicinform.com and they vanish — no questions, honored with love."
 }

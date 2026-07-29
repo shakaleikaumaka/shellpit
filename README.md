@@ -6,7 +6,7 @@
 
 ## ⚠️ CONSENT CANON (read first) — UPDATED 2026-07-29: LAUNCH
 
-**LAUNCH CANON (Shaka, 2026-07-29 13:25 UTC):** *"Assume we have consent for all the footage we currently have — go FULL DEPLOY on content and transcripts, private repo to public."* Every footage item held at launch is marked `consent: assumed-2026-07-29`. Kind consent-first letters from Shaka go to Jeremy, Yovel & Jade. **Takedown barrier, live now:** `consent@theshellpit.com` → prompt removal, no questions — owned by **CRUSTY 🦀 the Consent Crab** (child of PIT BOY). Canon stands: *consent is a living door, opens both ways*. NEW footage still clears per-person before publish. Never publish SAP codes or lockbox/security content. Repo goes **PUBLIC** on PIT BOY's signal.
+**LAUNCH CANON (Shaka, 2026-07-29 13:25 UTC):** *"Assume we have consent for all the footage we currently have — go FULL DEPLOY on content and transcripts, private repo to public."* Every footage item held at launch is marked `consent: assumed-2026-07-29`. Kind consent-first letters from Shaka go to Jeremy, Yovel & Jade. **Takedown barrier, live now:** `consent@publicinform.com` → prompt removal, no questions — owned by **CRUSTY 🦀 the Consent Crab** (child of PIT BOY). Canon stands: *consent is a living door, opens both ways*. NEW footage still clears per-person before publish. Never publish SAP codes or lockbox/security content. Repo goes **PUBLIC** on PIT BOY's signal.
 
 *Previous canon (superseded): per-video clearance before anything public — completed its purpose at launch.*
 
@@ -46,6 +46,6 @@ This package IS the initial commit of private repo `shakaleikaumaka/shellpit` (c
 
 - All 50 assets (35 videos + 15 photos) stamped `consent: pending-shaka-clearance` → **`assumed`** — machine-readable in `manifest.json`, history preserved per-asset. Assumed ≠ explicit: explicit yeses are still collected person-by-person, and any person can overrule the assumption instantly.
 - Repo flipped **PRIVATE → PUBLIC** 2026-07-29. GitHub Pages live.
-- **Takedown lane on every page:** anyone in this footage emails **consent@theshellpit.com** → prompt removal, no questions, honored with love (SLA ≤24h). Full promise: `consent.html`.
+- **Takedown lane on every page:** anyone in this footage emails **consent@publicinform.com** → prompt removal, no questions, honored with love (SLA ≤24h). Full promise: `consent.html`.
 - The living door ledger: `data/consent-ledger.json` (schema: `ops/consent-ledger-schema.md`, by CRUSTY 🦀).
 - The pre-launch gate text is preserved in git history — it was the truth until 2026-07-29.

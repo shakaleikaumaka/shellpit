@@ -7,7 +7,7 @@ Terri's export -> canonical pit data:
   camp-data/inventory-data.json -> data/armory.json (10 domains, 277 items)
   meeting-transcripts/*.md -> data/meetings.json
   transcripts -> data/search-index.json
-CONSENT CANON: LAUNCH 2026-07-29 — every entry carries consent:"assumed-2026-07-29" (Shaka canon: consent assumed for all launch footage) · takedown: consent@theshellpit.com 🦀
+CONSENT CANON: LAUNCH 2026-07-29 — every entry carries consent:"assumed-2026-07-29" (Shaka canon: consent assumed for all launch footage) · takedown: consent@publicinform.com 🦀
 CC0 · dependency-free
 """
 import json, re, os, sys, datetime
