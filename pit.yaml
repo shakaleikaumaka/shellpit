@@ -3,7 +3,7 @@ spec: "pit-manifest/0.1"
 pit:
   name: The ShellPIT
   slug: shellpit
-  registry_number: 12
+  registry_number: 8
   url: "https://shakaleikaumaka.github.io/shellpit/"
   repository: "https://github.com/shakaleikaumaka/shellpit"
   forked_from: "https://github.com/shakaleikaumaka/zuitzpit"
@@ -406,5 +406,5 @@ llm:
   catalog: "https://shakaleikaumaka.github.io/shellpit/data/catalog.json"
 hub: "https://publicinform.com"
 registry: "https://publicinform.com/pits.json"
-generated: "2026-07-29T16:27:27Z"
+generated: "2026-07-30T01:19:27Z"
 generator: pit_export.py v0.1 · PIT BOY 🕳️😤
