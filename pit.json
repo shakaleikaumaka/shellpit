@@ -29,7 +29,7 @@
  ],
  "counts": {
   "sessions": 35,
-  "transcripts": 20,
+  "transcripts": 21,
   "seconds": 1149,
   "hours": 0.3
  },
@@ -44,6 +44,9 @@
     "kind": "video",
     "bytes": 20876568
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -54,11 +57,17 @@
    "duration_seconds": 23,
    "media": {
     "drive": "https://drive.google.com/file/d/1gRlmaTqhz1r3z26iDA-28FkPejous9t0/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1gRlmaTqhz1r3z26iDA-28FkPejous9t0.mp3",
     "kind": "video",
     "bytes": 29142624
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4359_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4359_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 16,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1NfLGVRbPaD6nH22zY3Q3iF-L9jmXO5bQ",
@@ -68,11 +77,17 @@
    "duration_seconds": 20,
    "media": {
     "drive": "https://drive.google.com/file/d/1NfLGVRbPaD6nH22zY3Q3iF-L9jmXO5bQ/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1NfLGVRbPaD6nH22zY3Q3iF-L9jmXO5bQ.mp3",
     "kind": "video",
     "bytes": 26928238
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4417_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4417_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 68,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1Yr6PTEB3_9c-hu-f7K8N26TCmCrkRjbu",
@@ -82,11 +97,18 @@
    "duration_seconds": 19,
    "media": {
     "drive": "https://drive.google.com/file/d/1Yr6PTEB3_9c-hu-f7K8N26TCmCrkRjbu/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1Yr6PTEB3_9c-hu-f7K8N26TCmCrkRjbu.mp3",
     "kind": "video",
     "bytes": 37617383
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4418_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4418_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 55,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": "⚑ low-confidence clip (nova-3 avg 0.7447) — directionally right, word-level shaky; flagged honestly 2026-08-01."
   },
   {
    "id": "17AlZshNEatU6YQVfs-Isxuft3SbYV9e-",
@@ -99,6 +121,9 @@
     "kind": "video",
     "bytes": 883968
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -112,6 +137,9 @@
     "kind": "video",
     "bytes": 25172222
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -122,11 +150,18 @@
    "duration_seconds": 7,
    "media": {
     "drive": "https://drive.google.com/file/d/1X_kZXLDmqiOLxvla6vqUoWeK1q7y7o3z/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1X_kZXLDmqiOLxvla6vqUoWeK1q7y7o3z.mp3",
     "kind": "video",
     "bytes": 8012177
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4423_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4423_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 25,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": "⚑ low-confidence clip (nova-3 avg 0.7097) — directionally right, word-level shaky; flagged honestly 2026-08-01. nova-3 re-harvest 2026-08-01: 11→25 words (whisper was under-hearing)."
   },
   {
    "id": "12hHaZq3O8x-cH9Cx0ELwxizLw0_516u5",
@@ -139,6 +174,9 @@
     "kind": "video",
     "bytes": 4091911
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -152,6 +190,9 @@
     "kind": "video",
     "bytes": 3760738
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -162,11 +203,17 @@
    "duration_seconds": 23,
    "media": {
     "drive": "https://drive.google.com/file/d/1KbXTbaVAQaGFNKlapCNwuKfNBLn3xG8k/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1KbXTbaVAQaGFNKlapCNwuKfNBLn3xG8k.mp3",
     "kind": "video",
     "bytes": 27367523
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4428_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4428_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 50,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1PSBB6IjNZOU7OWYslXNl5Hph2IMi6pPx",
@@ -176,11 +223,18 @@
    "duration_seconds": 44,
    "media": {
     "drive": "https://drive.google.com/file/d/1PSBB6IjNZOU7OWYslXNl5Hph2IMi6pPx/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1PSBB6IjNZOU7OWYslXNl5Hph2IMi6pPx.mp3",
     "kind": "video",
     "bytes": 51778726
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4429_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4429_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 32,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": " nova-3 re-harvest 2026-08-01: 21→32 words (whisper was under-hearing)."
   },
   {
    "id": "15JwfFk-YTE5gXOmSpBdIN6OV8VSin4mE",
@@ -194,7 +248,11 @@
     "bytes": 23390740
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4430_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": "Speech status updated 2026-08-01: no verifiable words (nova-3 ×3 + cross-checks; earlier text retired as unverifiable/hallucination)."
   },
   {
    "id": "1EoEuhNbEAx5cfK9OXgBRybbOkny04p2Z",
@@ -204,11 +262,18 @@
    "duration_seconds": 2,
    "media": {
     "drive": "https://drive.google.com/file/d/1EoEuhNbEAx5cfK9OXgBRybbOkny04p2Z/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1EoEuhNbEAx5cfK9OXgBRybbOkny04p2Z.mp3",
     "kind": "video",
     "bytes": 2693660
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4431_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4431_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 2,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": "⚑ low-confidence clip (nova-3 avg 0.6296) — directionally right, word-level shaky; flagged honestly 2026-08-01. nova-3 re-harvest 2026-08-01: 1→2 words (whisper was under-hearing)."
   },
   {
    "id": "1yWXn08HiHd5eelk8lp7dBQdgjssjZgl7",
@@ -218,11 +283,18 @@
    "duration_seconds": 22,
    "media": {
     "drive": "https://drive.google.com/file/d/1yWXn08HiHd5eelk8lp7dBQdgjssjZgl7/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1yWXn08HiHd5eelk8lp7dBQdgjssjZgl7.mp3",
     "kind": "video",
     "bytes": 32235729
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4432_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4432_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 53,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": " nova-3 re-harvest 2026-08-01: 20→53 words (whisper was under-hearing)."
   },
   {
    "id": "1l5mYFoTJYQDGowHo1Y2Gxra5CRD2QQS7",
@@ -232,11 +304,17 @@
    "duration_seconds": 66,
    "media": {
     "drive": "https://drive.google.com/file/d/1l5mYFoTJYQDGowHo1Y2Gxra5CRD2QQS7/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1l5mYFoTJYQDGowHo1Y2Gxra5CRD2QQS7.mp3",
     "kind": "video",
     "bytes": 77019548
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4433_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4433_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 18,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1KsiLBxlJqvvlG0KXJRG8muGNXqZuLAVP",
@@ -246,11 +324,17 @@
    "duration_seconds": 9,
    "media": {
     "drive": "https://drive.google.com/file/d/1KsiLBxlJqvvlG0KXJRG8muGNXqZuLAVP/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1KsiLBxlJqvvlG0KXJRG8muGNXqZuLAVP.mp3",
     "kind": "video",
     "bytes": 12824184
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4434_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4434_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 18,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1r5Ur0KVcxaM8MwbFpIcasvF4o6II290O",
@@ -260,11 +344,17 @@
    "duration_seconds": 62,
    "media": {
     "drive": "https://drive.google.com/file/d/1r5Ur0KVcxaM8MwbFpIcasvF4o6II290O/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1r5Ur0KVcxaM8MwbFpIcasvF4o6II290O.mp3",
     "kind": "video",
     "bytes": 72322320
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4435_2.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4435_2.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 50,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "19Re2XtEoOouOI39wC2nwdVTm8gUOqSZn",
@@ -277,6 +367,9 @@
     "kind": "video",
     "bytes": 14482307
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "Audio present but no speech detected (0 transcript segments) — demo footage. Frame-stills lane pending."
   },
   {
@@ -290,6 +383,9 @@
     "kind": "video",
     "bytes": 62947472
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -300,11 +396,17 @@
    "duration_seconds": 12,
    "media": {
     "drive": "https://drive.google.com/file/d/1nFTnX2hg4Sl-mJ-g-MOl-yTAzrjj7Enw/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1nFTnX2hg4Sl-mJ-g-MOl-yTAzrjj7Enw.mp3",
     "kind": "video",
     "bytes": 14637890
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4442.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4442.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 4,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1D5vWN90N5bJ7j07RF9yXAaM_poqusZse",
@@ -318,7 +420,11 @@
     "bytes": 10028060
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4443.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": "Speech status updated 2026-08-01: no verifiable words (nova-3 ×3 + cross-checks; earlier text retired as unverifiable/hallucination)."
   },
   {
    "id": "1Nlb-vkMtYPJmSVGA3V3S9EPtK_lu4S0t",
@@ -331,6 +437,9 @@
     "kind": "video",
     "bytes": 4167755
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -344,6 +453,9 @@
     "kind": "video",
     "bytes": 64802202
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -357,6 +469,9 @@
     "kind": "video",
     "bytes": 51931844
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -367,11 +482,17 @@
    "duration_seconds": 415,
    "media": {
     "drive": "https://drive.google.com/file/d/1oF1uGpW8m-yZnA8_tA3M1TZg5DKdY8yZ/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1oF1uGpW8m-yZnA8_tA3M1TZg5DKdY8yZ.mp3",
     "kind": "video",
     "bytes": 480946936
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4452.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4452.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 103,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1xXdIZs1theMAlBMsngvAPlJjLrHiEpxw",
@@ -384,6 +505,13 @@
     "kind": "video",
     "bytes": 3475035
    },
+   "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4453.txt",
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4453.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 4,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "Audio present but no speech detected (0 transcript segments) — demo footage. Frame-stills lane pending."
   },
   {
@@ -397,6 +525,9 @@
     "kind": "video",
     "bytes": 42053761
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -407,11 +538,17 @@
    "duration_seconds": 25,
    "media": {
     "drive": "https://drive.google.com/file/d/1uCwTDmS4mi7G1oDMxZiOBdasqyhlaicP/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1uCwTDmS4mi7G1oDMxZiOBdasqyhlaicP.mp3",
     "kind": "video",
     "bytes": 30823485
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4460.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4460.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 57,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1g7g8XifL36v7UpsOlZ1XZWLH6nlf0DKU",
@@ -421,11 +558,17 @@
    "duration_seconds": 41,
    "media": {
     "drive": "https://drive.google.com/file/d/1g7g8XifL36v7UpsOlZ1XZWLH6nlf0DKU/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1g7g8XifL36v7UpsOlZ1XZWLH6nlf0DKU.mp3",
     "kind": "video",
     "bytes": 48651583
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4461.txt",
-   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps"
+   "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4461.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 87,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com"
   },
   {
    "id": "1KP-UhgpLywyVM2EsLq9b0jaLZTOG0T03",
@@ -438,6 +581,9 @@
     "kind": "video",
     "bytes": 193925
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "Sub-second accidental pocket capture. We keep the artifact. Pits are honest."
   },
   {
@@ -451,6 +597,9 @@
     "kind": "video",
     "bytes": 1579915
    },
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "No audio track in the source file — a visual-only clip. Frame-stills lane pending."
   },
   {
@@ -461,11 +610,17 @@
    "duration_seconds": 20,
    "media": {
     "drive": "https://drive.google.com/file/d/1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm.mp3",
     "kind": "video",
     "bytes": 24908248
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4623.txt",
    "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4623.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 39,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "The naming moment itself — and the shower RUNS."
   },
   {
@@ -476,11 +631,17 @@
    "duration_seconds": 119,
    "media": {
     "drive": "https://drive.google.com/file/d/1039Alr6GYvxjopaBR-CvOBdTFZY-kr2a/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1039Alr6GYvxjopaBR-CvOBdTFZY-kr2a.mp3",
     "kind": "video",
     "bytes": 147769560
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4624.txt",
    "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4624.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 301,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "“The machine turned the trailer into a machine.” Transfer switch (panel ↔ battery, generator kill), 16 outlets, 30A on both sides, USB/USB-C charge points."
   },
   {
@@ -494,7 +655,10 @@
     "kind": "video",
     "bytes": 59746612
    },
-   "note": "0 transcript segments — speechless b-roll from the 7/28 Machine session. Terri's footage intel mentions a rock show-and-tell in this session; which clip shows it is unconfirmed. Frame-stills lane pending."
+   "words": 0,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
+   "note": "0 transcript segments — speechless b-roll from the 7/28 Machine session. Terri's footage intel mentions a rock show-and-tell in this session; which clip shows it is unconfirmed. Frame-stills lane pending. nova-3 confirmed no speech 2026-08-01."
   },
   {
    "id": "1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm",
@@ -504,21 +668,29 @@
    "duration_seconds": 150,
    "media": {
     "drive": "https://drive.google.com/file/d/1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm/view",
+    "audio": "https://shakaleikaumaka.github.io/shellpit/audio/1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm.mp3",
     "kind": "video",
     "bytes": 198427965
    },
    "transcript": "https://shakaleikaumaka.github.io/shellpit/transcripts/IMG_4626.txt",
    "transcript_format": "pit-transcript/1 · plain text, [MM:SS] timestamps",
+   "transcript_words": "https://shakaleikaumaka.github.io/shellpit/data/nova3/IMG_4626.json",
+   "transcript_words_format": "pit-transcript-words/1 · word-level JSON, Deepgram nova-3 (per-word start/end + confidence, diarized)",
+   "words": 300,
+   "consent": "explicit",
+   "consent_note": "camp consensus 2026-08-01 — full Terrible Turtle folder cleared to publish; revoke anytime via consent@publicinform.com",
    "note": "The full greywater loop in one lesson: IBC coupler + thread tape + channel locks + cam-lock → transfer pump → kitchen → Jeremy's foot switch → greywater float switch → sump → shower basin float switch → greywater tank. Ends with Victor — “Victory!”"
   }
  ],
  "llm": {
-  "hint": "To talk to this pit: read this manifest, then fetch any session's 'transcript' URL (plain text, [MM:SS] timestamps). Quote with timestamps. Audio pointers are 64k mp3 on Cloudflare R2; 'drive' is the original video. Honor the consent block — this knowledge is transmitted, not taken.",
+  "hint": "To talk to this pit: read this manifest, then fetch any session's 'transcript' URL (plain text, [MM:SS] timestamps). Quote with timestamps. Audio pointers are 64k mp3 (Cloudflare R2 or repo-local); 'drive' is the original video. Honor the consent block — this knowledge is transmitted, not taken.",
   "transcript_search_index": "https://shakaleikaumaka.github.io/shellpit/data/search-index.json",
-  "catalog": "https://shakaleikaumaka.github.io/shellpit/data/catalog.json"
+  "catalog": "https://shakaleikaumaka.github.io/shellpit/data/catalog.json",
+  "word_timestamps": "https://shakaleikaumaka.github.io/shellpit/data/nova3/nova3-manifest.json",
+  "word_timestamps_note": "karaoke-grade per-word timing (Deepgram nova-3, diarized) — fetch a session's transcript_words URL"
  },
  "hub": "https://publicinform.com",
  "registry": "https://publicinform.com/pits.json",
- "generated": "2026-07-30T01:19:27Z",
+ "generated": "2026-08-01T21:38:29Z",
  "generator": "pit_export.py v0.1 · PIT BOY 🕳️😤"
 }
