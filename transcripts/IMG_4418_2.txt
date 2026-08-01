@@ -4,13 +4,11 @@ Date: 2026-07-15
 Source video: IMG_4418_2.MOV
 Drive: https://drive.google.com/file/d/1Yr6PTEB3_9c-hu-f7K8N26TCmCrkRjbu/view
 Duration: 00:19
-Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+Transcribed: 2026-08-01 · PIT BULL × Deepgram nova-3 (word-level timestamps, diarized) · consent: explicit-2026-08-01 (camp consensus)
+
 
 ---
 
-[00:00] When you put it on there, it's going to cut right on the line.
-[00:03] I'm going to keep that right in there.
-[00:05] It's going to cut right on the line.
-[00:07] So I'm going to take a plant and I'm going to put them on those lines.
-[00:12] And then this all cut right on the line.
-[00:14] I'm going to set this there.
+[00:00] Speaker 1: When you put it on the it's gonna cut right on the line. You just put that right in there.
+[00:05] Speaker 1: That cut right on the line. So I'm gonna get a cut of clamps and then put them on those lines.
+[00:12] Speaker 1: And then this salt cut right where you want. Let me set this test.

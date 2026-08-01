@@ -4,12 +4,13 @@ Date: 2026-07-28
 Source video: IMG_4623.MOV
 Drive: https://drive.google.com/file/d/1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm/view
 Duration: 00:20
-Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+Transcribed: 2026-08-01 · PIT BULL × Deepgram nova-3 (word-level timestamps, diarized) · consent: explicit-2026-08-01 (camp consensus)
+
 
 ---
 
-[00:00] Whoa! We stay clean!
-[00:03] Look at that! Woo!
-[00:05] That's a shower right there.
-[00:07] Alright, when a bunch of computer nerds fail, you just bring in the experts like Jared the machine.
-[00:13] Let's go!
+[00:00] Woah.
+[00:01] We're clean.
+[00:03] Look at that. Woo.
+[00:05] That's a shower right there. Yes. It is. Alright. When, a bunch of computer nerds fail, you just bring in the experts like Jared, the machine. Let's go.
+[00:15] That was good. Okay.

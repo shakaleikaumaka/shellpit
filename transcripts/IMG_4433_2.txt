@@ -4,8 +4,10 @@ Date: 2026-07-15
 Source video: IMG_4433_2.MOV
 Drive: https://drive.google.com/file/d/1l5mYFoTJYQDGowHo1Y2Gxra5CRD2QQS7/view
 Duration: 01:06
-Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+Transcribed: 2026-08-01 · PIT BULL × Deepgram nova-3 (word-level timestamps, diarized) · consent: explicit-2026-08-01 (camp consensus)
+
 
 ---
 
-[00:02] Maybe we should we kind of did a bad job, wish we clean up the one that we did
+[00:00] Crumble.
+[00:02] Maybe we should we kinda did it bad. Should we clean up the one that we did?

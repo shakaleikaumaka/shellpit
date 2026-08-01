@@ -4,22 +4,14 @@ Date: 2026-07-15
 Source video: IMG_4428_2.MOV
 Drive: https://drive.google.com/file/d/1KbXTbaVAQaGFNKlapCNwuKfNBLn3xG8k/view
 Duration: 00:23
-Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+Transcribed: 2026-08-01 · PIT BULL × Deepgram nova-3 (word-level timestamps, diarized) · consent: explicit-2026-08-01 (camp consensus)
+
 
 ---
 
-[00:00] Now we're clear.
-[00:01] Okay, now we're clear.
-[00:02] Okay, start again.
-[00:03] Let's see.
-[00:04] Let's see the blade.
-[00:05] Part of the blade.
-[00:06] Okay, don't touch it with your hands.
-[00:07] What's it been?
-[00:08] It might be alright.
-[00:09] Let's try it.
-[00:10] Okay, do it again.
-[00:11] Can you lift this up again?
-[00:12] Then pull it.
-[00:13] It might be alright, let's try it.
-[00:26] Okay, do it again.
+[00:00] Now we're clear. Okay. Now we're clear.
+[00:03] Okay. Start here. Let's see. Let's see the blade.
+[00:07] How do play? Okay. Don't touch it with your hands.
+[00:11] What's your thing?
+[00:17] It might be alright. Let's try. Yeah. It's okay.
+[00:20] So you can lift this up and get it in the hole.
