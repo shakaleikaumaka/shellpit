@@ -6,7 +6,9 @@
 
 ## ⚠️ CONSENT CANON (read first) — UPDATED 2026-07-29: LAUNCH
 
-**LAUNCH CANON (Shaka, 2026-07-29 13:25 UTC):** *"Assume we have consent for all the footage we currently have — go FULL DEPLOY on content and transcripts, private repo to public."* Every footage item held at launch is marked `consent: assumed-2026-07-29`. Kind consent-first letters from Shaka go to Jeremy, Yovel & Jade. **Takedown barrier, live now:** `consent@publicinform.com` → prompt removal, no questions — owned by **CRUSTY 🦀 the Consent Crab** (child of PIT BOY). Canon stands: *consent is a living door, opens both ways*. NEW footage still clears per-person before publish. Never publish SAP codes or lockbox/security content. Repo goes **PUBLIC** on PIT BOY's signal.
+**LAUNCH CANON (Shaka, 2026-07-29 13:25 UTC):** *"Assume we have consent for all the footage we currently have — go FULL DEPLOY on content and transcripts, private repo to public."* Every footage item held at launch was marked `consent: assumed-2026-07-29` (now `explicit` by camp consensus 2026-08-01 — see below). Kind consent-first letters from Shaka go to Jeremy, Yovel & Jade. **Takedown barrier, live now:** `consent@publicinform.com` → prompt removal, no questions — owned by **CRUSTY 🦀 the Consent Crab** (child of PIT BOY). Canon stands: *consent is a living door, opens both ways*. NEW footage still clears per-person before publish. Never publish SAP codes or lockbox/security content.
+
+**CONSENSUS CANON (Shaka, 2026-08-01 20:09 UTC):** the camp reached **CONSENT CONSENSUS** on the full Terrible Turtle folder — the per-video hold is LIFTED and the mission is *show and tell the shell to the world how to build an excellent burning man camp*. Every stamp moved `assumed → explicit` by **collective camp-consensus grant** (machine-readable, history preserved append-only in `data/consent-ledger.json`). Honest framing everywhere: this is a COLLECTIVE yes, NOT 35 individual per-person signatures — per-person explicit yeses are still collected and celebrated one by one, and any single person still overrules everything in one email.
 
 *Previous canon (superseded): per-video clearance before anything public — completed its purpose at launch.*
 
@@ -44,7 +46,7 @@ This package IS the initial commit of private repo `shakaleikaumaka/shellpit` (c
 
 **Shaka's order, 2026-07-29:** *"assume we have consent for all the footage we currently have, so we can go full deploy on content and transcripts with private repo to public."*
 
-- All 50 assets (35 videos + 15 photos) stamped `consent: pending-shaka-clearance` → **`assumed`** — machine-readable in `manifest.json`, history preserved per-asset. Assumed ≠ explicit: explicit yeses are still collected person-by-person, and any person can overrule the assumption instantly.
+- All 50 assets (35 videos + 15 photos) stamped `consent: pending-shaka-clearance` → **`assumed`** (2026-07-29) → **`explicit` by camp consensus** (2026-08-01) — machine-readable in `manifest.json`, history preserved per-asset. Collective consensus ≠ per-person signatures: individual yeses are still collected person-by-person, and any person can overrule everything instantly.
 - Repo flipped **PRIVATE → PUBLIC** 2026-07-29. GitHub Pages live.
 - **Takedown lane on every page:** anyone in this footage emails **consent@publicinform.com** → prompt removal, no questions, honored with love (SLA ≤24h). Full promise: `consent.html`. 🌐 **UNIVERSAL WINDOW CANON (Shaka, 2026-07-29 16:16 UTC):** consent@publicinform.com is THE consent window for **every P.I.T.** — takedowns and permission grants through one door; the inbox is checked every morning.
 - The living door ledger: `data/consent-ledger.json` (schema: `ops/consent-ledger-schema.md`, by CRUSTY 🦀).

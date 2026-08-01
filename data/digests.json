@@ -4,7 +4,7 @@
  "camp": "Terrible Turtle Camp",
  "author": "PIT GIRL",
  "generated": "2026-07-28",
- "consent": "assumed-2026-07-29 \u2014 digests describe content but nothing goes public until Shaka's per-video clearance; consent is a living door, opens both ways",
+ "consent": "explicit-2026-08-01 (camp consensus) \u2014 digests describe content; consent is a living door, opens both ways",
  "domain_tags": [
   "water",
   "power",
@@ -622,6 +622,6 @@
    ],
    "attribution_flag": "Speaker diarization in this file drifts (several lines tagged 'Jarrett Henson' are other on-site speakers, incl. Keith and Jeremy). All four picks above sit in clean, context-confirmed stretches."
   },
-  "consent": "assumed-2026-07-29 \u2014 window structure now; faces/voices only per Shaka's per-video list, every clip with a takedown path."
+  "consent": "explicit-2026-08-01 (camp consensus) \u2014 full folder cleared by camp consensus; every clip still carries a takedown path."
  }
 }
