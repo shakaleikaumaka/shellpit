@@ -37,8 +37,7 @@
     "1geJzAkSqd_g2uKsP_D_qoUYq_GtfIqKL",
     "1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm"
   ],
-  "assumed": [],
-  "explicit": [
+  "assumed": [
     "1z4jm8oxuXpC1YT11MKqFIXE_gPymDgmh",
     "1gRlmaTqhz1r3z26iDA-28FkPejous9t0",
     "1NfLGVRbPaD6nH22zY3Q3iF-L9jmXO5bQ",
@@ -75,18 +74,15 @@
     "1geJzAkSqd_g2uKsP_D_qoUYq_GtfIqKL",
     "1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm"
   ],
+  "explicit": [],
   "revoked": [],
   "policy": {
     "contact": "consent@publicinform.com",
     "promise": "prompt removal, no questions, honored with love",
     "page": "consent.html",
     "assumed_at": "2026-07-29T13:35:00Z",
-    "order": "shaka-2026-08-01-consent-consensus",
-    "consensus_at": "2026-08-01T20:09:00Z",
-    "order_prev": "shaka-2026-07-29-full-deploy",
-    "grant_type": "collective-camp-consensus",
-    "note": "The whole Terrible Turtle camp reached a collective decision to publish on 2026-08-01 (consent consensus, declared by Shaka). This is a COLLECTIVE camp-consensus explicit grant — NOT 35 individual per-person signatures. Any single person still overrules in one email."
+    "order": "shaka-2026-07-29-full-deploy"
   },
-  "note": "launch=public. cleared[] = what the UI unlocks. On 2026-08-01 the whole Terrible Turtle camp reached CONSENT CONSENSUS — a collective explicit grant covering the full folder, so all 35 ids moved assumed[] → explicit[]. This is collective consensus, NOT 35 individual signatures; the per-person explicit-collection continues. A takedown email moves any id to revoked[] and out of cleared[] instantly. The living door opens both ways.",
-  "canon": "Consent is a living door. assumed != explicit, and collective consensus != individual signatures — we never launder one into the other. Anyone in any frame or voice emails consent@publicinform.com and they vanish — no questions, honored with love."
+  "note": "launch=public. cleared[] = what the UI unlocks. Every id here is under ASSUMED consent (Shaka order 2026-07-29) — see assumed[]. When a person gives an explicit yes their id moves assumed[]->explicit[]. A takedown email moves the id to revoked[] and out of cleared[] instantly. The living door opens both ways.",
+  "canon": "Consent is a living door. assumed != explicit. Anyone in any frame or voice emails consent@publicinform.com and they vanish — no questions, honored with love."
 }
