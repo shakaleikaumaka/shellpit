@@ -272,6 +272,7 @@
    "Zoom user"
   ],
   "words": 10889,
-  "machine": true
+  "machine": true,
+  "consent": "explicit-2026-08-05 (camp consensus — coverage extension, see data/consent-ledger.json)"
  }
 ]

@@ -88,5 +88,18 @@
     "note": "The whole Terrible Turtle camp reached a collective decision to publish on 2026-08-01 (consent consensus, declared by Shaka). This is a COLLECTIVE camp-consensus explicit grant — NOT 35 individual per-person signatures. Any single person still overrules in one email."
   },
   "note": "launch=public. cleared[] = what the UI unlocks. On 2026-08-01 the whole Terrible Turtle camp reached CONSENT CONSENSUS — a collective explicit grant covering the full folder, so all 35 ids moved assumed[] → explicit[]. This is collective consensus, NOT 35 individual signatures; the per-person explicit-collection continues. A takedown email moves any id to revoked[] and out of cleared[] instantly. The living door opens both ways.",
-  "canon": "Consent is a living door. assumed != explicit, and collective consensus != individual signatures — we never launder one into the other. Anyone in any frame or voice emails consent@publicinform.com and they vanish — no questions, honored with love."
+  "canon": "Consent is a living door. assumed != explicit, and collective consensus != individual signatures — we never launder one into the other. Anyone in any frame or voice emails consent@publicinform.com and they vanish — no questions, honored with love.",
+  "coverage_extension": {
+    "order": "shaka-2026-08-05-turtle-full-consensus",
+    "ruled_at": "2026-08-05",
+    "quote": "for turtles there is full consensus",
+    "covers": [
+      "meeting-transcripts/",
+      "camp-data/",
+      "intel/"
+    ],
+    "consent": "explicit (collective camp consensus — NOT per-person signatures)",
+    "ledger_entry": "data/consent-ledger.json → events[] coverage-extension-0002",
+    "note": "cleared[]/explicit[] above list the 50 media asset ids only; transcripts & camp data are covered directory-level by this extension of the 2026-08-01 consensus. Same living door: one email to consent@publicinform.com removes anything."
+  }
 }

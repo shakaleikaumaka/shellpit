@@ -1343,6 +1343,19 @@
     "promise": "prompt removal, no questions, honored with love",
     "revocable": "any single person overrules the collective grant in one email",
     "ledger": "data/consent-ledger.json",
-    "note": "The whole Terrible Turtle camp reached a collective decision to publish on 2026-08-01 (consent consensus, declared by Shaka). This is a COLLECTIVE camp-consensus explicit grant — NOT 35 individual per-person signatures. Any single person still overrules in one email."
+    "note": "The whole Terrible Turtle camp reached a collective decision to publish on 2026-08-01 (consent consensus, declared by Shaka). This is a COLLECTIVE camp-consensus explicit grant — NOT 35 individual per-person signatures. Any single person still overrules in one email.",
+    "coverage_extension": {
+      "order": "shaka-2026-08-05-turtle-full-consensus",
+      "ruled_at": "2026-08-05",
+      "quote": "for turtles there is full consensus",
+      "covers": [
+        "meeting-transcripts/",
+        "camp-data/",
+        "intel/"
+      ],
+      "grant_type": "collective-camp-consensus",
+      "ledger_entry": "data/consent-ledger.json → events[] coverage-extension-0002",
+      "note": "Shaka 2026-08-05: meeting transcripts, camp data and intel digests are inside the camp consensus. Collective grant, not per-person signatures; any one person overrules in one email."
+    }
   }
 }
