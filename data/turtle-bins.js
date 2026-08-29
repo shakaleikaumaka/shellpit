@@ -477,5 +477,13 @@ const INVENTORY = {
     { date: "8/25", store: "Walmart Reno", total: 139.32, what: "9× 5-gal propane cylinders 🔥" },
     { date: "8/24", store: "WinCo ×2 + Chef'Store + Lowe's + TA fuel", total: 4862.71, what: "Full build-week food, hydration, kitchen ops, tools, fire safety" },
     { date: "8/20", store: "Home Depot Boulder ×3", total: 2241.94, what: "Build materials, tarps, BRUTE cans, HDX totes (the bins themselves!), tools" }
+  ],
+  // Live updates from the kitchen crew on TG (Terri Kitchen Chat, chat -5581861596)
+  // Chef Marcus 🍳 · sous chef Fernando (@dandus88) · Jeremy · Shaka → Terri hears it → boards update
+  kitchenUpdates: [
+    { date: "8/28", by: "Shaka", text: "Kitchen trailer arrived and is officially placed under the semi-truck shade structure — different from original plan, feels great under the shade." },
+    { date: "8/28", by: "Chef Marcus", text: "Keep everything in the kitchen area — no walking around. Cooking oil, salt, garlic, seasonings to be picked up; he brings cutting boards, utensils, spatulas himself." },
+    { date: "8/28", by: "Chef Marcus", text: "Cooking oil (corrected from 'cookie dough' — voice-to-text) + olive oil, sprays, seasonings secured." },
+    { date: "8/28", by: "Fernando 🍳", text: "Sous chef Fernando (@dandus88) added to the kitchen chat — direct line to Terri for bin, food-location and kitchen-layout updates." }
   ]
 };

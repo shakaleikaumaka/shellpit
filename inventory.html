@@ -111,6 +111,11 @@
     <div class="bins" id="bins"></div>
   </div>
 
+  <div id="kitchen-updates" style="display:none;margin-top:18px;">
+    <h2 style="font-size:1rem;letter-spacing:.1em;color:var(--tt-amber);margin-bottom:10px;">👨‍🍳 KITCHEN CREW UPDATES — live from the TG kitchen chat</h2>
+    <div id="kitchen-updates-list"></div>
+  </div>
+
   <div class="footer">
     🐢 <strong>Turtle Bins</strong> · the camp's living inventory · <a href="./">Back to camp ops</a><br>
     <span style="color:var(--tt-amber);">Move Slow &amp; Bite Things.</span>
@@ -178,6 +183,21 @@ function onSearch(){
 }
 
 function clearSearch(){ document.getElementById('q').value=''; onSearch(); document.getElementById('q').focus(); }
+
+// kitchen crew updates (live from TG kitchen chat)
+(function(){
+  const ups = (typeof INVENTORY !== 'undefined' && INVENTORY.kitchenUpdates) ? INVENTORY.kitchenUpdates : [];
+  if (!ups.length) return;
+  document.getElementById('kitchen-updates').style.display = 'block';
+  document.getElementById('kitchen-updates-list').innerHTML = ups.map(u=>`
+    <div class="res-card" style="margin-bottom:8px;">
+      <span class="res-bin">${esc(u.date)}</span>
+      <div class="res-body">
+        <div><span class="res-item">${esc(u.by)}</span></div>
+        <div class="res-note">${esc(u.text)}</div>
+      </div>
+    </div>`).join('');
+})();
 
 renderStats(); renderBins();
 </script>
