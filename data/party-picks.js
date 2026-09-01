@@ -1,14 +1,21 @@
-// 🎉 MANU'S TOP PARTY PICKS — BM 2026
-// Source: party flyers collected by Manu · converted from burning_man_2026_pretty_schedule.csv
+// 🐢🎉 TERRI'S TOP PARTY PICKS — BM 2026
+// Founding music list curated by Manu Alzuru (OSO Node 004). Anyone can add picks
+// or start a curated section: tell Terri 🐢 in any camp chat.
 // Edit + bump updated; never rename const PARTY or its keys.
 const PARTY = {
- "updated": "2026-09-01 14:39 PT",
- "credit": "Curated by Manu Alzuru 🎉 — Open Source Orchestra Node 004, riding with the turtles · from party flyers posted to camp",
+ "updated": "2026-09-01 15:10 PT",
+ "credit": "🎻 Founding music list curated by Manu Alzuru — Open Source Orchestra Node 004, riding with the turtles · every curator welcome",
  "ideas": [
   {
    "title": "🌅 Sunrise renegade set at The Man — NEXT SUNRISE?",
    "dream": "As soon as we're ready — maybe the very next sunrise. Roll out in the dark, sound facing the Man, drop the first beat as the sun cracks the mountains. The camp's gift to the dawn.",
-   "needs": ["Art car collaborator — to TRANSPORT our sound system (ask around tonight!)", "Jeremy's generator — we actually need it (ask Jeremy 🙏)", "Frank's batteries — he has a bunch, backup/extra power", "DJ lineup (Manu curates?)", "Sunrise scout: exact time + spot by the Man"],
+   "needs": [
+    "Art car collaborator — to TRANSPORT our sound system (ask around tonight!)",
+    "Jeremy's generator — we actually need it (ask Jeremy 🙏)",
+    "Frank's batteries — he has a bunch, backup/extra power",
+    "DJ lineup (Manu curates?)",
+    "Sunrise scout: exact time + spot by the Man"
+   ],
    "by": "Shaka",
    "status": "next sunrise?"
   }
@@ -30,7 +37,8 @@ const PARTY = {
    "artist": "Chafic b2b John Woods; Gallivanter",
    "camp": "Sahar Camp",
    "where": "9:15 & J",
-   "by": "@brunomregueira"
+   "by": "@brunomregueira",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -38,7 +46,8 @@ const PARTY = {
    "artist": "Bipolar Express",
    "camp": "The Singularity Tree",
    "where": "Deep Playa",
-   "by": "@martenlou"
+   "by": "@martenlou",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -46,7 +55,8 @@ const PARTY = {
    "artist": "Kimono Disco",
    "camp": "Miki Beach",
    "where": "10 & F",
-   "by": "@mikibeachcamp"
+   "by": "@mikibeachcamp",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -54,7 +64,8 @@ const PARTY = {
    "artist": "RJ with LP Giobbi",
    "camp": "Above the Noise",
    "where": "",
-   "by": "RJ"
+   "by": "RJ",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -62,7 +73,8 @@ const PARTY = {
    "artist": "Sahar Opening",
    "camp": "Sahar Camp",
    "where": "9:15 & J",
-   "by": "@brunomregueira"
+   "by": "@brunomregueira",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -70,7 +82,8 @@ const PARTY = {
    "artist": "Hot Stuff lineup: Edge; Vermilion b2b Miss Behavior; Alvaro; Justin Shaffer; Topper",
    "camp": "Hot Stuff",
    "where": "2 & F",
-   "by": "@camphotstuff"
+   "by": "@camphotstuff",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -78,7 +91,8 @@ const PARTY = {
    "artist": "Hugo A; Mona Pirzad; Igor Marijuan; Kotoe",
    "camp": "Camp Albortz",
    "where": "E & 9:45",
-   "by": "Camp Albortz"
+   "by": "Camp Albortz",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -86,7 +100,8 @@ const PARTY = {
    "artist": "La Huaira",
    "camp": "Sahar Camp",
    "where": "9:15 & J",
-   "by": "@brunomregueira"
+   "by": "@brunomregueira",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -94,7 +109,8 @@ const PARTY = {
    "artist": "Julia Sandstorm",
    "camp": "Playground",
    "where": "2 & C",
-   "by": "@juliasandstorm"
+   "by": "@juliasandstorm",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -102,7 +118,8 @@ const PARTY = {
    "artist": "Kel Assouf + Santiago Bartolome & Friends",
    "camp": "Sahar Camp",
    "where": "9:15 & J",
-   "by": "@brunomregueira"
+   "by": "@brunomregueira",
+   "curator": "manu"
   },
   {
    "day": "Monday · Aug 31",
@@ -110,7 +127,8 @@ const PARTY = {
    "artist": "RJ",
    "camp": "Miki Beach",
    "where": "10 & F",
-   "by": "RJ"
+   "by": "RJ",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -118,7 +136,8 @@ const PARTY = {
    "artist": "Julia Sandstorm; LP Giobbi; Hedda Stenberg; Riche",
    "camp": "B4B Takeover",
    "where": "",
-   "by": "@juliasandstorm"
+   "by": "@juliasandstorm",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -126,7 +145,8 @@ const PARTY = {
    "artist": "Magisus & Friends",
    "camp": "Playalchemist",
    "where": "3:30 & E",
-   "by": "@magisus.mathi"
+   "by": "@magisus.mathi",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -134,7 +154,8 @@ const PARTY = {
    "artist": "Leon Hong Kong",
    "camp": "Day Dream",
    "where": "2:15 & B",
-   "by": "@leon_nds"
+   "by": "@leon_nds",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -142,7 +163,8 @@ const PARTY = {
    "artist": "Anna",
    "camp": "Playground",
    "where": "Arrival Stage",
-   "by": "@djannaofficial"
+   "by": "@djannaofficial",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -150,7 +172,8 @@ const PARTY = {
    "artist": "Roy Rosenfeld",
    "camp": "Long Feng",
    "where": "10 & K",
-   "by": "Roy Rosenfeld"
+   "by": "Roy Rosenfeld",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -158,7 +181,8 @@ const PARTY = {
    "artist": "Anna; Deer Jade; Jamiie; Kotoe; LaserLaura; Maxi Meraki; Philou; Sam Shure",
    "camp": "I AM YOU YOU ARE ME / Sahar",
    "where": "9:15 & J",
-   "by": "@this_is_jamiie"
+   "by": "@this_is_jamiie",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -166,7 +190,8 @@ const PARTY = {
    "artist": "Eli Light & Lau",
    "camp": "AMMA",
    "where": "2 & Iroko",
-   "by": "AMMA"
+   "by": "AMMA",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -174,7 +199,8 @@ const PARTY = {
    "artist": "Isabeau Fort b2b Golden",
    "camp": "AMMA",
    "where": "2 & Iroko",
-   "by": "AMMA"
+   "by": "AMMA",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -182,7 +208,8 @@ const PARTY = {
    "artist": "Madmotor Miquel b2b Kotoe",
    "camp": "AMMA",
    "where": "2 & Iroko",
-   "by": "AMMA"
+   "by": "AMMA",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -190,7 +217,8 @@ const PARTY = {
    "artist": "Ameme; Anna; Ines Rau; Jamiie; Jojo Abot; Pego; Rockin Moroccin; Tom & Collins; Yung Omz",
    "camp": "One Vibe One Tribe / Sahar",
    "where": "9:15 & J",
-   "by": "@rockinmoroccin"
+   "by": "@rockinmoroccin",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -198,7 +226,8 @@ const PARTY = {
    "artist": "Roy Rosenfeld",
    "camp": "AMMA",
    "where": "2 & I",
-   "by": "Roy Rosenfeld"
+   "by": "Roy Rosenfeld",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -206,7 +235,8 @@ const PARTY = {
    "artist": "Roy Rosenfeld",
    "camp": "AMMA",
    "where": "2 & Iroko",
-   "by": "AMMA"
+   "by": "AMMA",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -214,7 +244,8 @@ const PARTY = {
    "artist": "Oliver Koletzki & Frida Darko",
    "camp": "Treblemaker",
    "where": "2:30 & Esplanade",
-   "by": "@oliverkoletzki"
+   "by": "@oliverkoletzki",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -222,7 +253,8 @@ const PARTY = {
    "artist": "Jamyn Phoenix; Marvin Jam & Sese",
    "camp": "AMMA",
    "where": "2 & Iroko",
-   "by": "AMMA"
+   "by": "AMMA",
+   "curator": "manu"
   },
   {
    "day": "Tuesday · Sep 1",
@@ -230,7 +262,8 @@ const PARTY = {
    "artist": "Hedda Stenberg; Mia Twin; Julia Sandstorm; Philou",
    "camp": "Norse Code",
    "where": "8:45 & Eternal",
-   "by": "Norse Code"
+   "by": "Norse Code",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -238,7 +271,8 @@ const PARTY = {
    "artist": "Ameme b2b Vanjee",
    "camp": "Sahar x One Tribe",
    "where": "9:15 & J",
-   "by": "@amemedj"
+   "by": "@amemedj",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -246,7 +280,8 @@ const PARTY = {
    "artist": "Roy Rosenfeld b2b Vanjee",
    "camp": "Nova",
    "where": "Deep Playa",
-   "by": "Roy Rosenfeld"
+   "by": "Roy Rosenfeld",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -254,7 +289,8 @@ const PARTY = {
    "artist": "Oliver Koletzki & Frida Darko",
    "camp": "Eden Art Car",
    "where": "",
-   "by": "@oliverkoletzki"
+   "by": "@oliverkoletzki",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -262,7 +298,8 @@ const PARTY = {
    "artist": "Pretty in Pink",
    "camp": "Miki Beach",
    "where": "10 & F",
-   "by": "@mikibeachcamp"
+   "by": "@mikibeachcamp",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -270,7 +307,8 @@ const PARTY = {
    "artist": "Roy Rosenfeld b2b Rafael",
    "camp": "Discotique",
    "where": "2 & G",
-   "by": "Roy Rosenfeld"
+   "by": "Roy Rosenfeld",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -278,7 +316,8 @@ const PARTY = {
    "artist": "Tommy Raffa; Xinobi b2b Losha; Madmotor Miquel b2b Kotoe; Nacho Isa b2b Manguito & Ksenyeah; Maxxe b2b Von Davis; Karma; Love Doctor",
    "camp": "Animal Party / Go Down Under",
    "where": "10 & E",
-   "by": "@maxxe.music"
+   "by": "@maxxe.music",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -286,7 +325,8 @@ const PARTY = {
    "artist": "RJ b2b Arodes",
    "camp": "Pink Mammoth",
    "where": "9 & G Plaza",
-   "by": "RJ"
+   "by": "RJ",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -294,7 +334,8 @@ const PARTY = {
    "artist": "Oliver Koletzki b2b Frida Darko; Roman Kyn; Lovecraft",
    "camp": "Camp Albortz",
    "where": "E & 9:45",
-   "by": "Camp Albortz"
+   "by": "Camp Albortz",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -302,7 +343,8 @@ const PARTY = {
    "artist": "Magisus b2b Emilio + Manik Khan live",
    "camp": "Bisous Tea House",
    "where": "8:45 & E",
-   "by": "@magisus.mathi"
+   "by": "@magisus.mathi",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -310,7 +352,8 @@ const PARTY = {
    "artist": "Jojo Abot presents Love Poceans",
    "camp": "AMMA",
    "where": "",
-   "by": "enteramma"
+   "by": "enteramma",
+   "curator": "manu"
   },
   {
    "day": "Wednesday · Sep 2",
@@ -318,7 +361,8 @@ const PARTY = {
    "artist": "Nico Stojan remembrance + Marques Wyatt",
    "camp": "AMMA / Temple / Bisous",
    "where": "",
-   "by": "img_92e64b9dd056.jpg"
+   "by": "img_92e64b9dd056.jpg",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -326,7 +370,8 @@ const PARTY = {
    "artist": "Oliver Koletzki b2b Frida Darko (program continues)",
    "camp": "Camp Albortz",
    "where": "E & 9:45",
-   "by": "Camp Albortz"
+   "by": "Camp Albortz",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -334,7 +379,8 @@ const PARTY = {
    "artist": "Rodriguez Jr. & Friends",
    "camp": "Twilight Language",
    "where": "10 & I",
-   "by": "RJ"
+   "by": "RJ",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -342,7 +388,8 @@ const PARTY = {
    "artist": "Roy Rosenfeld",
    "camp": "Tabernacle",
    "where": "10 & E",
-   "by": "Roy Rosenfeld"
+   "by": "Roy Rosenfeld",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -350,7 +397,8 @@ const PARTY = {
    "artist": "Long Feng b2b Darco",
    "camp": "Long Feng",
    "where": "10 & K",
-   "by": "@rafael___music"
+   "by": "@rafael___music",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -358,7 +406,8 @@ const PARTY = {
    "artist": "Tom & Collins",
    "camp": "Discotique",
    "where": "2 & G",
-   "by": "@tomandcollins"
+   "by": "@tomandcollins",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -366,7 +415,8 @@ const PARTY = {
    "artist": "Roy Rosenfeld",
    "camp": "Pink Mammoth",
    "where": "9 & G",
-   "by": "Roy Rosenfeld"
+   "by": "Roy Rosenfeld",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -374,7 +424,8 @@ const PARTY = {
    "artist": "Solaris b2b Onthefritz; SYOST; Eulen Aus Chrom; Foda; Odeon; Lynn; Nexus",
    "camp": "Disorient Express Art Car",
    "where": "meet 9:15 & J",
-   "by": "@lucasereth"
+   "by": "@lucasereth",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -382,7 +433,8 @@ const PARTY = {
    "artist": "Ameme experimental set",
    "camp": "Bunny Meth Lab",
    "where": "9:30 & Esplanade",
-   "by": "@amemedj"
+   "by": "@amemedj",
+   "curator": "manu"
   },
   {
    "day": "Thursday · Sep 3",
@@ -390,7 +442,8 @@ const PARTY = {
    "artist": "Catori; Haana; Aiwaa; Eli Light; Zenti",
    "camp": "Caravan D'Light",
    "where": "8:15 & Eternal",
-   "by": "Caravan D'Light"
+   "by": "Caravan D'Light",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -398,7 +451,8 @@ const PARTY = {
    "artist": "Ameme b2b Vanjee",
    "camp": "Long Feng",
    "where": "10 & K",
-   "by": "@amemedj"
+   "by": "@amemedj",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -406,7 +460,8 @@ const PARTY = {
    "artist": "Jamiie; Anna; Deer Jade; Kotoe; LaserLaura; Maxi Meraki; Philou; Sam Shure",
    "camp": "I AM YOU YOU ARE ME / Sahar",
    "where": "9:15 & J",
-   "by": "@this_is_jamiie"
+   "by": "@this_is_jamiie",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -414,7 +469,8 @@ const PARTY = {
    "artist": "Beach Bash",
    "camp": "Miki Beach",
    "where": "10 & F",
-   "by": "@mikibeachcamp"
+   "by": "@mikibeachcamp",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -422,7 +478,8 @@ const PARTY = {
    "artist": "Magisus",
    "camp": "AMMA",
    "where": "2 & I",
-   "by": "@magisus.mathi"
+   "by": "@magisus.mathi",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -430,7 +487,8 @@ const PARTY = {
    "artist": "Rampue b2b Adaamar",
    "camp": "Miki Beach",
    "where": "10 & F",
-   "by": "@rampue"
+   "by": "@rampue",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -438,7 +496,8 @@ const PARTY = {
    "artist": "Anna",
    "camp": "Sahar Camp",
    "where": "",
-   "by": "@djannaofficial"
+   "by": "@djannaofficial",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -446,7 +505,8 @@ const PARTY = {
    "artist": "Rafael",
    "camp": "Opulent Temple",
    "where": "10 & Esplanade",
-   "by": "@rafael___music"
+   "by": "@rafael___music",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -454,7 +514,8 @@ const PARTY = {
    "artist": "Hot Stuff lineup: Will Kayll; Manfredi b2b Vitz; Aline Brooklyn b4b David Triana b4b Clovis b4b Topper; Shaun Reeves b2b Aline Brooklyn",
    "camp": "Hot Stuff",
    "where": "2 & F",
-   "by": "@camphotstuff"
+   "by": "@camphotstuff",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -462,7 +523,8 @@ const PARTY = {
    "artist": "Anna",
    "camp": "Long Feng / Huo Feng",
    "where": "",
-   "by": "@djannaofficial"
+   "by": "@djannaofficial",
+   "curator": "manu"
   },
   {
    "day": "Friday · Sep 4",
@@ -470,7 +532,8 @@ const PARTY = {
    "artist": "Anna b2b Jackson",
    "camp": "Favela Art Car",
    "where": "",
-   "by": "@djannaofficial"
+   "by": "@djannaofficial",
+   "curator": "manu"
   },
   {
    "day": "Saturday · Sep 5",
@@ -478,7 +541,8 @@ const PARTY = {
    "artist": "Long Feng b2b Xinobi",
    "camp": "Long Feng",
    "where": "10 & K",
-   "by": "@foreverannicka"
+   "by": "@foreverannicka",
+   "curator": "manu"
   },
   {
    "day": "Saturday · Sep 5",
@@ -486,7 +550,8 @@ const PARTY = {
    "artist": "Ameme; Santiago Garcia; Hedda Stenberg; Slim Soul; Marques Wyatt; Todd",
    "camp": "Norse Code Man Burn After Party",
    "where": "8:45 & Eternal",
-   "by": "Norse Code"
+   "by": "Norse Code",
+   "curator": "manu"
   },
   {
    "day": "Sunday · Sep 6",
@@ -494,7 +559,8 @@ const PARTY = {
    "artist": "Sahar Moment to Integrate: Dillon Porter; Jac Hoja; Katya Lee; Kel Assouf; Mehry Eslaminia; Neon Dots; Santiago Bartolome; Unders",
    "camp": "Sahar Camp",
    "where": "9:15 & J",
-   "by": "Sahar Camp"
+   "by": "Sahar Camp",
+   "curator": "manu"
   },
   {
    "day": "Monday · Sep 7",
@@ -502,7 +568,60 @@ const PARTY = {
    "artist": "Marques Wyatt; Oona Dahl; Lee Reynolds; Nikita & Greg Eversoul; Bilaliwood; Maria Tambien; Umee Dee; Yaku; Side Quest w Shaun Reeves",
    "camp": "Reality Check Reno",
    "where": "Reno NV",
-   "by": "@marqueswyatt"
+   "by": "@marqueswyatt",
+   "curator": "manu"
+  }
+ ],
+ "title": "Terri's Top Party Picks",
+ "intro": "Every party on playa — and every party we make ourselves. Tell Terri 🐢 to add a pick or start your own curated list.",
+ "curators": [
+  {
+   "key": "manu",
+   "name": "Manu 🎻",
+   "title": "Manu's Music Picks",
+   "tagline": "the founding list — where the music is, night by night",
+   "kind": "timed"
+  },
+  {
+   "key": "shaka",
+   "name": "Shaka 🤙",
+   "title": "Shaka's Picks",
+   "tagline": "the host knows: the real party is a camp that hums",
+   "kind": "missions"
+  },
+  {
+   "key": "jeremy",
+   "name": "Jeremy 🔧",
+   "title": "Jeremy's Picks",
+   "tagline": "nothing parties harder than working infrastructure",
+   "kind": "missions"
+  },
+  {
+   "key": "yovel",
+   "name": "Yovel ⛺",
+   "title": "Yovel's Picks",
+   "tagline": "fresh off two songs and a legendary week",
+   "kind": "missions"
+  }
+ ],
+ "missionPicks": [
+  {
+   "curator": "shaka",
+   "title": "🍳 Kitchen deep-clean party",
+   "why": "Music on, crew in, kitchen sparkling before the next feast. The most underrated rager on playa.",
+   "status": "recruiting"
+  },
+  {
+   "curator": "jeremy",
+   "title": "💧 Water system works — THE party",
+   "why": "Check the pump (in its bucket!), lines, greywater. When the water flows, everything flows.",
+   "status": "recruiting"
+  },
+  {
+   "curator": "yovel",
+   "title": "⛺ Yurt system fix-up fiesta",
+   "why": "Get the yurts solid before the next dust blow. Bring gloves and one good speaker.",
+   "status": "recruiting"
   }
  ]
 };
