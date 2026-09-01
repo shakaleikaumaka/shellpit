@@ -44,6 +44,23 @@
   .where { background: #2c1f10; color: var(--orange-hot); border-radius: 10px; padding: 6px 12px; font-weight: 800; font-size: .88rem; white-space: nowrap; text-align: center; }
   .where.deep { color: var(--pink); }
   .none { color: var(--dim); font-style: italic; text-align: center; padding: 30px 0; }
+  /* highlight reel */
+  .reel { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 22px 0 4px; }
+  @media (max-width: 700px) { .reel { grid-template-columns: 1fr; } }
+  .panel { border-radius: 18px; padding: 16px 18px; border: 1px solid var(--card-edge); background: linear-gradient(165deg, #241407, var(--bg2)); }
+  .panel.now { border-color: #6e1f1f; box-shadow: 0 0 30px rgba(255,77,0,.12); }
+  .panel h2 { font-size: .95rem; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+  .panel.now h2 { color: #ff5d5d; }
+  .panel.next h2 { color: var(--green); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #ff3b3b; animation: pulse 1.4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+  .reel-item { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; padding: 8px 0; border-bottom: 1px dashed #33251738; }
+  .reel-item:last-child { border-bottom: none; }
+  .reel-who { font-weight: 700; font-size: .93rem; }
+  .reel-camp { color: var(--dim); font-size: .78rem; }
+  .reel-where { background: #2c1f10; color: var(--orange-hot); border-radius: 8px; padding: 3px 10px; font-weight: 800; font-size: .8rem; white-space: nowrap; }
+  .reel-when { color: var(--yellow); font-size: .74rem; font-weight: 700; white-space: nowrap; }
+  .reel-empty { color: var(--dim); font-style: italic; font-size: .85rem; padding: 6px 0; }
   @media (max-width: 560px) { .pick { grid-template-columns: 1fr; gap: 6px; } .where { justify-self: start; } }
   footer { text-align: center; margin-top: 56px; color: #6f5c48; font-size: .76rem; line-height: 1.7; }
   footer a { color: var(--dim); }
@@ -60,6 +77,10 @@
     <div class="updated" id="updated"></div>
     <input class="search" id="q" type="search" placeholder="🔍 artist, camp, address…">
   </header>
+  <div class="reel">
+    <div class="panel now"><h2><span class="dot"></span> Right Now on Playa</h2><div id="now"></div></div>
+    <div class="panel next"><h2>⏭️ Up Next</h2><div id="next"></div></div>
+  </div>
   <div class="chips" id="chips"></div>
   <div id="out"></div>
   <footer>
@@ -122,6 +143,38 @@
     document.getElementById('out').innerHTML = html || '<div class="none">nothing matches — the playa provides elsewhere tonight 🐢</div>';
   }
   chips(); render();
+
+  // ── HIGHLIGHT REEL: right now + up next (playa/Pacific time) ──
+  const DAY_DATES = { 'Monday · Aug 31':'2026-08-31','Tuesday · Sep 1':'2026-09-01','Wednesday · Sep 2':'2026-09-02','Thursday · Sep 3':'2026-09-03','Friday · Sep 4':'2026-09-04','Saturday · Sep 5':'2026-09-05','Sunday · Sep 6':'2026-09-06','Monday · Sep 7':'2026-09-07' };
+  function ptNow(){ return new Date(new Date().toLocaleString('en-US',{timeZone:'America/Los_Angeles'})); }
+  function parsePick(p){
+    const date = DAY_DATES[p.day]; if (!date) return null;
+    const times = (p.time.match(/\d{1,2}:\d{2}/g) || []);
+    if (!times.length) return null;
+    const [y,m,d] = date.split('-').map(Number);
+    const mk = (hhmm, addDays) => { const [h,mi] = hhmm.split(':').map(Number); const dt = new Date(y, m-1, d + (addDays||0), h, mi); return dt; };
+    const start = mk(times[0], 0);
+    let end;
+    if (times[1]) { end = mk(times[1], 0); if (end <= start) end = mk(times[1], 1); }
+    else { end = new Date(start.getTime() + 4*3600e3); } // open-ended ("from 20:00") → assume ~4h
+    return { ...p, start, end, openEnded: !times[1] };
+  }
+  const timeline = PARTY.picks.map(parsePick).filter(Boolean).sort((a,b)=>a.start-b.start);
+  function fmtIn(ms){ const m = Math.round(ms/60000); if (m < 60) return 'in ' + m + ' min'; const h = Math.floor(m/60); return 'in ' + h + 'h ' + (m%60) + 'm'; }
+  function fmtAt(dt){ return dt.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}).toLowerCase(); }
+  function row(p, when){ return `<div class="reel-item"><div><div class="reel-who">${esc(p.artist)}</div><div class="reel-camp">${esc(p.camp)}${when?` · <span class="reel-when">${when}</span>`:''}</div></div><div class="reel-where">${esc(p.where||'📍 ask around')}</div></div>`; }
+  function reel(){
+    const now = ptNow();
+    const live = timeline.filter(p => p.start <= now && now < p.end).sort((a,b)=>a.end-b.end);
+    const upcoming = timeline.filter(p => p.start > now).slice(0, 4);
+    document.getElementById('now').innerHTML = live.length
+      ? live.map(p => row(p, (p.openEnded?'from ':'til ') + fmtAt(p.openEnded?p.start:p.end))).join('')
+      : '<div class="reel-empty">quiet hour on the reel — check tonight\'s list below 🐢</div>';
+    document.getElementById('next').innerHTML = upcoming.length
+      ? upcoming.map(p => row(p, fmtIn(p.start - now) + ' · ' + fmtAt(p.start))).join('')
+      : '<div class="reel-empty">that\'s the week, turtles — see you in 2027 🔥</div>';
+  }
+  reel(); setInterval(reel, 60000);
 })();
 </script>
 </body>
