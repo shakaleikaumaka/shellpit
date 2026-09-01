@@ -2,8 +2,8 @@
 // Source: party flyers collected by Manu · converted from burning_man_2026_pretty_schedule.csv
 // Edit + bump updated; never rename const PARTY or its keys.
 const PARTY = {
- "updated": "2026-09-01 13:45 PT",
- "credit": "Curated by Manu 🎉 · from party flyers posted to camp",
+ "updated": "2026-09-01 13:46 PT",
+ "credit": "Curated by Manu Alzuru 🎉 — Open Source Orchestra Node 004, riding with the turtles · from party flyers posted to camp",
  "days": [
   "Monday · Aug 31",
   "Tuesday · Sep 1",
