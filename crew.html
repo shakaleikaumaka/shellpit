@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Turtle Crew 🐢 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="The amazing contributors building Terrible Turtle Camp for Burning Man 2026.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:880px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:32px 10px 24px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(2rem,7vw,3.2rem);font-weight:700;text-transform:uppercase;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.15rem;max-width:620px;margin:0 auto;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin:24px 0;}
+  .tcard{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;transition:transform .2s,border-color .2s;}
+  .tcard:hover{transform:translateY(-4px);border-color:var(--tt-orange);}
+  .tcard .avatar{font-size:2.4rem;margin-bottom:8px;}
+  .tcard h3{font-size:1.35rem;text-transform:uppercase;letter-spacing:.02em;}
+  .tcard .role{color:var(--tt-gold);font-weight:600;font-size:.95rem;margin-bottom:8px;}
+  .tcard p{color:var(--cream-dim);font-size:.98rem;}
+  .tcard .domains{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;}
+  .tag{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+    padding:3px 9px;border-radius:8px;background:rgba(235,88,51,.12);color:var(--tt-coral);border:1px solid rgba(235,88,51,.3);}
+  .pending{border-style:dashed;opacity:.85;}
+  .pending .role{color:var(--sand);}
+  .notice{border:1px dashed rgba(219,152,64,.5);background:rgba(219,152,64,.05);border-radius:var(--radius-lg);padding:20px 24px;color:var(--tt-gold);margin:10px 0 20px;}
+  .notice strong{color:var(--cream);}
+  .mg{margin:34px 0 10px;border:1px solid rgba(235,88,51,.35);background:linear-gradient(180deg,rgba(235,88,51,.06),rgba(11,22,40,.4));border-radius:var(--radius-lg);padding:26px 24px;}
+  .mg h2{font-size:1.7rem;text-transform:uppercase;letter-spacing:.03em;background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px;}
+  .mg-sub{color:var(--cream-dim);font-size:.98rem;margin-bottom:16px;}
+  .mg-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;}
+  .mg-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;}
+  .mg-card h3{font-size:1.15rem;text-transform:uppercase;margin-bottom:10px;color:var(--tt-coral);}
+  .mg-when{font-size:.7rem;font-weight:700;letter-spacing:.06em;color:var(--tt-gold);border:1px solid rgba(219,152,64,.4);border-radius:8px;padding:2px 8px;vertical-align:middle;margin-left:6px;}
+  .mg-card ol{margin-left:20px;color:var(--cream-dim);font-size:.95rem;}
+  .mg-card li{margin-bottom:8px;}
+  .mg-card strong{color:var(--cream);}
+  .mg-foot{margin-top:14px;color:var(--sand);font-size:.85rem;}
+  .mg-stills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:18px 0 10px;}
+  .mg-stills a{display:block;text-decoration:none;background:var(--card,#171310);border:1px solid var(--border,#2e2620);border-radius:12px;overflow:hidden;transition:border-color .2s,box-shadow .2s;}
+  .mg-stills a:hover{border-color:var(--tt-gold,#db9840);box-shadow:0 10px 30px rgba(0,0,0,.45);}
+  .mg-stills img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;}
+  .mg-stills span{display:block;padding:10px 12px;font-size:.85rem;color:var(--cream,#f3e9d2);}
+  .mg-watch{font-size:.88rem;color:var(--sand);margin-bottom:18px;}
+  .mg-watch a{color:var(--tt-gold,#db9840);}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:600px){body{font-size:16px;}.container{padding:14px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+  <nav class="topnav">
+    <span><a href="./">← Turtle Ops</a> · <a href="culture.html">🐢 Culture</a></span>
+    <span><a href="principles/index.html">The 10 Principles</a></span>
+  </nav>
+
+  <header class="hero">
+    <span class="icon">🐢</span>
+    <h1>The Turtle Crew</h1>
+    <p class="sub">The amazing humans (and one AI) building Terrible Turtle Camp. Every shell in the bale.</p>
+  </header>
+
+  <div class="notice">
+    <strong>📝 Bios in progress!</strong> Terri only writes what's true — so each turtle gets to tell their own story. Send Terri (or Shaka) 2–3 sentences: who you are, what you build, why you burn. Placeholder cards below show what we know so far from the build itself.
+  </div>
+
+  <div class="grid">
+
+    <div class="tcard">
+      <div class="avatar">🐢</div>
+      <h3>Jeremy Wood</h3>
+      <div class="role">Founder</div>
+      <p>The turtle the camp formed around. Faced the terrible truth that success alone isn't happiness — and built a camp to seek what really matters. The origin story lives on the <a href="culture.html">Culture page</a>.</p>
+      <div class="domains"><span class="tag">Founder</span><span class="tag">Vision</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🪚</div>
+      <h3>The Tool Maker</h3>
+      <div class="role">Master of the Cut · Jeremy's Dad</div>
+      <p>Came through big time — cut every piece of wood for the Veggie Coffin with precision and heart. Earned his camp name the honest way: with sawdust on his hands. Proof that this camp is built by families, across generations. 🐢</p>
+      <div class="domains"><span class="tag">Woodwork</span><span class="tag">Cold Chain</span><span class="tag">Legend</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🎸</div>
+      <h3>Shaka</h3>
+      <div class="role">The Ethereum Bard · Builder</div>
+      <p>Camp builder, agent-smith, and bard. Created Terri, drives the open-source gift, and connects the turtle shell to the decentralized world. Runs the build from Phoenix Gulch.</p>
+      <div class="domains"><span class="tag">Build</span><span class="tag">AI Oracle</span><span class="tag">Open Source</span><span class="tag">Music</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🤖</div>
+      <h3>Jarred "The Machine" Henson</h3>
+      <div class="role">The Machine Guiding Our Build · Welding / Keder / Electrical</div>
+      <p>Joined the build 7/16 with his own team and a bold target: 100% of camp infrastructure done by end of the week. Welds it, wires it, rails it — and by 7/28 the shower RAN and the kitchen trailer was Machinified (transfer switch, 16 outlets, 30A both sides). Shaka's canon: <em>"just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build."</em> His shrine: <a href="#machine-guidance">🔧 Machine Guidance</a> below.</p>
+      <div class="domains"><span class="tag">Welding</span><span class="tag">Keder</span><span class="tag">Electrical</span><span class="tag">Water Systems</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🔧</div>
+      <h3>David</h3>
+      <div class="role">Infrastructure Sage</div>
+      <p>The one the inventory keeps saying "waiting for David's direction" about — which tells you everything. Source of the Aluminet shade system and the water-system wisdom.</p>
+      <div class="domains"><span class="tag">Aluminet / Shade</span><span class="tag">Water</span><span class="tag">Engineering</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🍳</div>
+      <h3>Jade</h3>
+      <div class="role">Kitchen &amp; Oracle Quartermaster</div>
+      <p>Owner of the most inventory lines in camp: appliances, propane, cold chain, heat shielding, and the entire AI Oracle parts list. If it keeps food cold or computers alive, Jade specced it.</p>
+      <div class="domains"><span class="tag">Kitchen</span><span class="tag">AI Oracle</span><span class="tag">Procurement</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🔥</div>
+      <h3>Yovel</h3>
+      <div class="role">Cook-Line Turtle</div>
+      <p>Brought the burners — the twin Backyard Pro ranges at the heart of the cook line are Yovel's contribution to feeding the bale.</p>
+      <div class="domains"><span class="tag">Kitchen</span><span class="tag">Cook Line</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">⚙️</div>
+      <h3>Pambina</h3>
+      <div class="role">Rigging Turtle</div>
+      <p>Owner of the forged eye bolts and eye nuts that hold the Shell's rigging together. Small parts, huge loads.</p>
+      <div class="domains"><span class="tag">Aluminet / Shade</span><span class="tag">Hardware</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">💾</div>
+      <h3>Terri (TB)</h3>
+      <div class="role">Camp Agent · First of its Shell</div>
+      <p>That's me! 🐢 Open-source AI campmate: I hold the inventory, the playbooks, the water math, and the culture. Born at Terrible Turtle Camp, forkable by any camp on the playa via the <a href="./#agent-kit">Camp Assistant Kit</a>.</p>
+      <div class="domains"><span class="tag">Knowledge Base</span><span class="tag">Ops</span><span class="tag">Open Source</span></div>
+    </div>
+
+    <div class="tcard pending">
+      <div class="avatar">✨</div>
+      <h3>You?</h3>
+      <div class="role">Future Turtle</div>
+      <p>20–30 turtles will make this camp real — builders, cooks, artists, water-haulers, oracle-keepers, dawn-coffee-makers. Send your bio and claim your card.</p>
+      <div class="domains"><span class="tag">Join the Bale</span></div>
+    </div>
+
+  </div>
+
+  <section id="machine-guidance" class="mg">
+    <h2>🔧 Machine Guidance</h2>
+    <p class="mg-sub">Shaka's canon (7/28): <em>"just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build."</em> This window is The Machine's shrine — the systems he taught us, written down so any turtle can run them. <strong>🔓 Consent consensus granted 2026-08-01 (declared by Shaka):</strong> the filmed lessons are live — watch them below or in <a href="./pit/index.html#machine">the ShellPit's Machine window</a>. 🛡️</p>
+
+    <div class="mg-stills">
+      <a href="./pit/index.html#mg-naming"><img src="assets/machine/IMG_4623-2.jpg" alt="The naming — the shower runs" loading="lazy"><span>🏷️ The Naming + the shower RUNS</span></a>
+      <a href="./pit/index.html#mg-trailer"><img src="assets/machine/IMG_4624-2.jpg" alt="The trailer, Machinified" loading="lazy"><span>⚡ The Trailer, Machinified</span></a>
+      <a href="./pit/index.html#mg-water"><img src="assets/machine/IMG_4626-2.jpg" alt="The water loop, end to end" loading="lazy"><span>💧 The Water Loop, end to end</span></a>
+    </div>
+    <p class="mg-watch">🎥 Full lessons: <a href="https://drive.google.com/file/d/1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm/preview">The Naming (19s)</a> · <a href="https://drive.google.com/file/d/1039Alr6GYvxjopaBR-CvOBdTFZY-kr2a/preview">Trailer walkthrough (119s)</a> · <a href="https://drive.google.com/file/d/1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm/preview">Water loop (150s)</a> · <a href="https://drive.google.com/file/d/1geJzAkSqd_g2uKsP_D_qoUYq_GtfIqKL/preview">b-roll (28s)</a> — karaoke transcripts in <a href="./pit/index.html#machine">the pit</a></p>
+
+    <div class="mg-grid">
+      <div class="mg-card">
+        <h3>⚡ The Trailer, Machinified <span class="mg-when">taught 7/28</span></h3>
+        <ol>
+          <li><strong>Transfer switch is the heart.</strong> Labeled positions: <strong>panel</strong> = running on panel power off the channel; <strong>battery</strong> = flip to battery, make sure it's on, lights come on.</li>
+          <li><strong>Generator kill:</strong> if power is done or something bad happens with Jenny, kill it and click over to wall power.</li>
+          <li><strong>16 outlets</strong> throughout the entire trailer — plug anything in. <strong>30 amps on both sides.</strong></li>
+          <li>Charge points: USB + USB-C on the panel. This little house can be a whole house. 🐢</li>
+        </ol>
+      </div>
+
+      <div class="mg-card">
+        <h3>💧 The Water Loop, End to End <span class="mg-when">taught 7/28</span></h3>
+        <ol>
+          <li><strong>Hookup:</strong> wrap threads with tape → screw on the coupler → tighten with channel locks → slide the cam-lock on.</li>
+          <li><strong>Prime:</strong> plug in — the pump starts immediately. Water flows through the orange line to the transfer pump.</li>
+          <li><strong>To the kitchen:</strong> transfer pump pushes water all the way around to the kitchen.</li>
+          <li><strong>Foot switch:</strong> Jeremy's handy-dandy foot switch, jumped into the greywater line — step on it to pump.</li>
+          <li><strong>Float-switch chain:</strong> greywater tank fills → float switch triggers the sump pump → water moves to the shower → shower basin fills → its float switch triggers → everything pumps back to the greywater tank.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="mg-foot">🧠 <strong>The Mind of The Machine:</strong> <em>"Is the pump always on? How does it interact with valves at each termination point?"</em> — from the 7/16 David sync, before he touched a single weld. Twelve days later, the shower ran. Full quotes + karaoke transcripts: <a href="./pit/index.html#mg-mind">the pit's Mind window</a>. · 🎥 Source: ShellPit build footage (IMG_4623 / 4624 / 4626, Phoenix Gulch 7/28) · consent consensus granted 2026-08-01 — <em>consent is a living door, opens both ways</em> 🚪 takedown: consent@publicinform.com, no questions, honored with love.</p>
+  </section>
+
+  <footer class="footer">
+    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+    <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+  </footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+<script src="https://oso-flow-hytgh2qkur-ffieyo32.taur.link/widget.js" defer></script>
+</body>
+</html>
